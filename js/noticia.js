@@ -6,7 +6,16 @@ async function loadArticle() {
     );
 
 
+  if (!container) {
+    return;
+  }
+
+
   try {
+
+    /* =====================================
+       OBTENER ID DE LA URL
+    ===================================== */
 
     const params =
       new URLSearchParams(
@@ -18,106 +27,199 @@ async function loadArticle() {
       params.get("id");
 
 
-    const response =
-      await fetch(
-        "data/noticias.json"
+    if (!id) {
+
+      showArticleNotFound(
+        container
       );
-
-
-    const news =
-      await response.json();
-
-
-    const article =
-      news.find(
-        item =>
-          String(item.id)
-          ===
-          String(id)
-      );
-
-
-    if (!article) {
-
-      container.innerHTML = `
-
-        <div class="news-empty">
-
-          <h2>
-            Noticia no encontrada
-          </h2>
-
-          <p>
-            La noticia que buscas
-            no está disponible.
-          </p>
-
-          <br>
-
-          <a
-            href="noticias.html"
-            class="featured-news-link"
-          >
-
-            Volver a noticias
-
-          </a>
-
-        </div>
-
-      `;
 
       return;
 
     }
 
 
+
+    /* =====================================
+       CARGAR NOTICIAS
+    ===================================== */
+
+    const response =
+      await fetch(
+        "data/noticias.json"
+      );
+
+
+    if (!response.ok) {
+
+      throw new Error(
+        "No se pudo cargar noticias.json"
+      );
+
+    }
+
+
+    const news =
+      await response.json();
+
+
+
+    /* =====================================
+       BUSCAR NOTICIA
+    ===================================== */
+
+    const article =
+      news.find(
+        item =>
+          String(item.id) ===
+          String(id)
+      );
+
+
+    if (!article) {
+
+      showArticleNotFound(
+        container
+      );
+
+      return;
+
+    }
+
+
+
+    /* =====================================
+       TÍTULO DE LA PESTAÑA
+    ===================================== */
+
     document.title =
       `${article.titulo} | Colegio Henri Fayol`;
 
 
-    const date =
-      new Date(
-        article.fecha
-        +
-        "T12:00:00"
-      );
+
+    /* =====================================
+       FECHA
+    ===================================== */
+
+    let formattedDate =
+      "";
 
 
-    const formattedDate =
-      date.toLocaleDateString(
-        "es-CL",
-        {
-          day: "numeric",
-          month: "long",
-          year: "numeric"
-        }
-      );
+    if (article.fecha) {
+
+      const date =
+        new Date(
+          `${article.fecha}T12:00:00`
+        );
 
 
-    const paragraphs =
-      (
+      if (
+        !Number.isNaN(
+          date.getTime()
+        )
+      ) {
+
+        formattedDate =
+          date.toLocaleDateString(
+            "es-CL",
+            {
+              day: "numeric",
+              month: "long",
+              year: "numeric"
+            }
+          );
+
+      }
+
+    }
+
+
+
+    /* =====================================
+       CONTENIDO
+    ===================================== */
+
+    let paragraphs =
+      "";
+
+
+    /*
+      SOPORTA:
+
+      "contenido": [
+        "Párrafo uno",
+        "Párrafo dos"
+      ]
+
+      Y TAMBIÉN:
+
+      "contenido": "Párrafo uno\nPárrafo dos"
+    */
+
+
+    if (
+      Array.isArray(
         article.contenido
-        ||
-        article.resumen
-        ||
-        ""
       )
+    ) {
 
-      .split("\n")
+      paragraphs =
+        article.contenido
 
-      .filter(
-        paragraph =>
-          paragraph.trim()
-      )
+          .filter(
+            paragraph =>
+              paragraph &&
+              paragraph.trim()
+          )
 
-      .map(
-        paragraph =>
-          `<p>${paragraph}</p>`
-      )
+          .map(
+            paragraph =>
+              `<p>${paragraph}</p>`
+          )
 
-      .join("");
+          .join("");
 
+    }
+
+
+    else if (
+      typeof article.contenido ===
+      "string"
+    ) {
+
+      paragraphs =
+        article.contenido
+
+          .split("\n")
+
+          .filter(
+            paragraph =>
+              paragraph.trim()
+          )
+
+          .map(
+            paragraph =>
+              `<p>${paragraph}</p>`
+          )
+
+          .join("");
+
+    }
+
+
+    else if (
+      article.resumen
+    ) {
+
+      paragraphs =
+        `<p>${article.resumen}</p>`;
+
+    }
+
+
+
+    /* =====================================
+       IMAGEN PRINCIPAL
+    ===================================== */
 
     const mainImage =
 
@@ -126,14 +228,16 @@ async function loadArticle() {
         ? `
 
           <div
-            class="
-              article-main-image
-            "
+            class="article-main-image"
           >
 
             <img
               src="${article.imagen}"
-              alt="${article.titulo}"
+              alt="${
+                article.imagenAlt
+                ||
+                article.titulo
+              }"
             >
 
           </div>
@@ -143,16 +247,20 @@ async function loadArticle() {
         : "";
 
 
-    let gallery = "";
+
+    /* =====================================
+       GALERÍA DE NOTICIA
+    ===================================== */
+
+    let gallery =
+      "";
 
 
     if (
       Array.isArray(
         article.galeria
       )
-
       &&
-
       article.galeria.length
     ) {
 
@@ -164,6 +272,7 @@ async function loadArticle() {
 
           ${
             article.galeria
+
               .map(
                 image => `
 
@@ -175,6 +284,7 @@ async function loadArticle() {
 
                 `
               )
+
               .join("")
           }
 
@@ -184,6 +294,11 @@ async function loadArticle() {
 
     }
 
+
+
+    /* =====================================
+       RENDER NOTICIA
+    ===================================== */
 
     container.innerHTML = `
 
@@ -209,13 +324,21 @@ async function loadArticle() {
         </h1>
 
 
-        <div
-          class="article-date"
-        >
+        ${
+          formattedDate
+            ? `
 
-          ${formattedDate}
+              <div
+                class="article-date"
+              >
 
-        </div>
+                ${formattedDate}
+
+              </div>
+
+            `
+            : ""
+        }
 
       </header>
 
@@ -254,11 +377,13 @@ async function loadArticle() {
 
   }
 
+
   catch (
     error
   ) {
 
     console.error(
+      "Error cargando noticia:",
       error
     );
 
@@ -267,8 +392,23 @@ async function loadArticle() {
 
       <div class="news-empty">
 
-        No fue posible cargar
-        la noticia.
+        <h2>
+          No fue posible cargar la noticia
+        </h2>
+
+        <p>
+          Ocurrió un problema al cargar
+          esta información.
+        </p>
+
+        <br>
+
+        <a
+          href="noticias.html"
+          class="featured-news-link"
+        >
+          Volver a noticias
+        </a>
 
       </div>
 
@@ -279,6 +419,50 @@ async function loadArticle() {
 }
 
 
+
+/* =========================================================
+   NOTICIA NO ENCONTRADA
+========================================================= */
+
+function showArticleNotFound(
+  container
+) {
+
+  container.innerHTML = `
+
+    <div class="news-empty">
+
+      <h2>
+        Noticia no encontrada
+      </h2>
+
+      <p>
+        La noticia que buscas
+        no está disponible.
+      </p>
+
+      <br>
+
+      <a
+        href="noticias.html"
+        class="featured-news-link"
+      >
+
+        Volver a noticias
+
+      </a>
+
+    </div>
+
+  `;
+
+}
+
+
+
+/* =========================================================
+   INICIAR
+========================================================= */
 
 document.addEventListener(
   "DOMContentLoaded",
