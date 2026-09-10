@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Proceso de Admisión 2027 del Colegio Henri Fayol"
+  >
+
+  <title>
+    Admisión 2027 | Colegio Henri Fayol
+  </title>
+
+  <link
+  rel="icon"
+  type="image/png"
+  href="assets/logo/logo.png"
+>
+
+
+  <link
+    rel="stylesheet"
+    href="css/global.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/header.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/footer.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/admision.css"
+  >
+
+</head>
+
+
+<body>
+
+  <div id="header-container"></div>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="admission-hero">
+
+      <div class="container admission-hero-container">
+
+        <div class="admission-hero-content">
+
+          <span
+            class="admission-hero-label"
+            id="admission-hero-label"
+          >
+            Admisiones 2027
+          </span>
+
+
+          <h1 id="admission-hero-title">
+            Tu camino al Henri Fayol comienza aquí
+          </h1>
+
+
+          <p id="admission-hero-description"></p>
+
+
+          <div class="admission-hero-actions">
+
+            <a
+              href="#proceso"
+              class="admission-primary-button"
+            >
+              Conocer el proceso
+            </a>
+
+
+            <a
+              href="#documentos"
+              class="admission-secondary-button"
+            >
+              Documentos 2027
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="admission-hero-decoration">
+
+          <div class="admission-big-year">
+            2027
+          </div>
+
+          <span>
+            Admisiones
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="admission-intro">
+
+      <div class="container admission-intro-container">
+
+        <span
+          class="admission-eyebrow"
+          id="admission-intro-label"
+        ></span>
+
+
+        <h2 id="admission-intro-title"></h2>
+
+
+        <p id="admission-intro-description"></p>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROCESO -->
+
+    <section
+      class="admission-process"
+      id="proceso"
+    >
+
+      <div class="container">
+
+        <header class="admission-section-title">
+
+          <span class="admission-eyebrow">
+            Paso a paso
+          </span>
+
+          <h2>
+            Proceso de Admisión
+          </h2>
+
+          <p>
+            Te acompañamos durante todo el proceso
+            para que postular al Henri Fayol sea
+            simple y claro.
+          </p>
+
+        </header>
+
+
+        <div
+          class="admission-timeline"
+          id="admission-steps"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA CONTACTO -->
+
+    <section class="admission-contact">
+
+      <div class="container admission-contact-container">
+
+        <div class="admission-contact-content">
+
+          <span class="admission-contact-label">
+            ¿Damos el primer paso?
+          </span>
+
+
+          <h2 id="admission-contact-title"></h2>
+
+
+          <p id="admission-contact-description"></p>
+
+
+          <div class="admission-contact-details">
+
+            <a
+              href="#"
+              id="admission-contact-email"
+            ></a>
+
+
+            <span
+              id="admission-contact-address"
+            ></span>
+
+          </div>
+
+        </div>
+
+
+        <div class="admission-contact-action">
+
+          <a
+            href="contacto.html"
+            class="admission-white-button"
+          >
+            Contactar Admisión
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- DOCUMENTOS -->
+
+    <section
+      class="admission-documents"
+      id="documentos"
+    >
+
+      <div class="container">
+
+        <header class="admission-section-title">
+
+          <span class="admission-eyebrow">
+            Información 2027
+          </span>
+
+          <h2>
+            Documentos de Admisión
+          </h2>
+
+          <p>
+            Consulta o descarga los documentos
+            correspondientes al proceso de admisión
+            y rematrícula.
+          </p>
+
+        </header>
+
+
+        <div
+          class="documents-grid"
+          id="documents-grid"
+        ></div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <div id="footer-container"></div>
+
+
+  <!-- VISOR PDF -->
+
+  <div
+    class="pdf-modal"
+    id="pdf-modal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="pdf-modal-background"
+      id="pdf-modal-background"
+    ></div>
+
+
+    <div class="pdf-modal-window">
+
+      <header class="pdf-modal-header">
+
+        <div>
+
+          <span>
+            Documento
+          </span>
+
+          <h3 id="pdf-modal-title">
+            Colegio Henri Fayol
+          </h3>
+
+        </div>
+
+
+        <div class="pdf-modal-actions">
+
+          <a
+            href="#"
+            target="_blank"
+            id="pdf-open-tab"
+          >
+            Abrir en otra pestaña
+          </a>
+
+
+          <button
+            type="button"
+            id="pdf-close"
+            aria-label="Cerrar documento"
+          >
+            ×
+          </button>
+
+        </div>
+
+      </header>
+
+
+      <div class="pdf-modal-body">
+
+        <iframe
+          id="pdf-viewer"
+          title="Documento PDF"
+        ></iframe>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="js/header.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/admision.js"></script>
+
+</body>
+
+</html>

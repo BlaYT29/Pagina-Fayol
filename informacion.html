@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Horarios, reglamentos, protocolos y documentos del Colegio Henri Fayol"
+  >
+
+  <title>
+    Información | Colegio Henri Fayol
+  </title>
+
+  <link
+  rel="icon"
+  type="image/png"
+  href="assets/logo/logo.png"
+>
+
+  <link
+    rel="stylesheet"
+    href="css/global.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/header.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/footer.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/informacion.css"
+  >
+
+</head>
+
+
+<body>
+
+  <div id="header-container"></div>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="info-hero">
+
+      <div class="container info-hero-container">
+
+        <div>
+
+          <span class="info-hero-label">
+            Información para nuestra comunidad
+          </span>
+
+
+          <h1>
+            Todo lo importante,
+            en un solo lugar
+          </h1>
+
+
+          <p>
+            Consulta los horarios del colegio,
+            reglamentos, protocolos y documentos
+            importantes para estudiantes y apoderados.
+          </p>
+
+
+          <div class="info-hero-actions">
+
+            <a
+              href="#horarios"
+              class="info-button-primary"
+            >
+              Ver horarios
+            </a>
+
+
+            <a
+              href="#documentos"
+              class="info-button-secondary"
+            >
+              Ver documentos
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="info-hero-card">
+
+          <span>
+            Colegio Henri Fayol
+          </span>
+
+
+          <strong>
+            Información
+          </strong>
+
+
+          <p>
+            Horarios, fechas, reglamentos
+            y documentos institucionales.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- HORARIOS -->
+
+    <section
+      class="info-schedules"
+      id="horarios"
+    >
+
+      <div class="container">
+
+        <header class="info-section-header">
+
+          <span>
+            Jornada escolar
+          </span>
+
+
+          <h2>
+            Horarios del Colegio
+          </h2>
+
+
+          <p>
+            Revisa los horarios de clases
+            y atención de nuestro establecimiento.
+          </p>
+
+        </header>
+
+
+        <div
+          class="schedule-grid"
+          id="schedule-grid"
+        ></div>
+
+
+        <div class="punctuality-card">
+
+          <div class="punctuality-icon">
+            ✓
+          </div>
+
+
+          <div>
+
+            <strong>
+              Puntualidad
+            </strong>
+
+
+            <p id="schedule-message"></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FECHAS -->
+
+    <section class="info-calendar-cta">
+
+      <div class="container info-calendar-grid">
+
+        <div>
+
+          <span>
+            Calendario escolar
+          </span>
+
+
+          <h2>
+            ¿Buscas una fecha importante?
+          </h2>
+
+
+          <p>
+            Consulta feriados, vacaciones,
+            actividades escolares y otras
+            fechas relevantes del año.
+          </p>
+
+        </div>
+
+
+        <a
+          href="fechas.html"
+          class="info-calendar-button"
+        >
+          Ver fechas importantes
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- DOCUMENTOS -->
+
+    <section
+      class="info-documents"
+      id="documentos"
+    >
+
+      <div class="container">
+
+        <header class="info-section-header">
+
+          <span>
+            Documentación institucional
+          </span>
+
+
+          <h2>
+            Reglamentos y documentos
+          </h2>
+
+
+          <p>
+            Consulta o descarga la documentación
+            oficial disponible para nuestra comunidad.
+          </p>
+
+        </header>
+
+
+        <div
+          class="document-filters"
+          id="document-filters"
+        ></div>
+
+
+        <div
+          class="info-documents-grid"
+          id="info-documents-grid"
+        ></div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <div id="footer-container"></div>
+
+
+  <!-- VISOR PDF -->
+
+  <div
+    class="info-pdf-modal"
+    id="info-pdf-modal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="info-pdf-background"
+      id="info-pdf-background"
+    ></div>
+
+
+    <div class="info-pdf-window">
+
+      <header class="info-pdf-header">
+
+        <div>
+
+          <span>
+            Colegio Henri Fayol
+          </span>
+
+
+          <h3 id="info-pdf-title">
+            Documento
+          </h3>
+
+        </div>
+
+
+        <div class="info-pdf-actions">
+
+          <a
+            href="#"
+            target="_blank"
+            id="info-pdf-new-tab"
+          >
+            Abrir en otra pestaña
+          </a>
+
+
+          <button
+            type="button"
+            id="info-pdf-close"
+            aria-label="Cerrar documento"
+          >
+            ×
+          </button>
+
+        </div>
+
+      </header>
+
+
+      <div class="info-pdf-body">
+
+        <iframe
+          id="info-pdf-viewer"
+          title="Documento PDF"
+        ></iframe>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="js/header.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/informacion.js"></script>
+
+</body>
+
+</html>

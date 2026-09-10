@@ -1,0 +1,614 @@
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer {
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    #061a2e;
+
+  color: white;
+}
+
+
+.footer::before {
+  content: "";
+
+  position: absolute;
+
+  width: 520px;
+  height: 520px;
+
+  top: -330px;
+  left: -230px;
+
+  border-radius: 50%;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.055);
+}
+
+
+/* =========================================================
+   PARTE PRINCIPAL
+========================================================= */
+
+.footer-main {
+  position: relative;
+
+  z-index: 2;
+
+  display: grid;
+
+  grid-template-columns:
+    1.4fr
+    0.7fr
+    0.9fr
+    1.2fr;
+
+  gap: 65px;
+
+  padding:
+    85px 0
+    70px;
+}
+
+
+/* =========================================================
+   MARCA
+========================================================= */
+
+.footer-brand {
+  max-width: 350px;
+}
+
+
+.footer-logo {
+  display: inline-flex;
+
+  margin-bottom: 25px;
+}
+
+
+.footer-logo img {
+  display: block;
+
+  width: auto;
+
+  height: 85px;
+
+  object-fit: contain;
+}
+
+
+.footer-brand > p {
+  max-width: 330px;
+
+  margin:
+    0 0
+    24px;
+
+  color:
+    rgba(255,255,255,0.57);
+
+  font-size: 0.86rem;
+
+  line-height: 1.8;
+}
+
+
+/* ADMISION */
+
+.footer-admission-button {
+  min-height: 44px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding:
+    0 17px;
+
+  border-radius: 100px;
+
+  background: white;
+
+  color:
+    var(--primary-dark);
+
+  font-size: 0.78rem;
+
+  font-weight: 800;
+
+  transition:
+    transform 0.2s ease;
+}
+
+
+.footer-admission-button:hover {
+  transform:
+    translateY(-2px);
+}
+
+
+/* =========================================================
+   REDES
+========================================================= */
+
+.footer-socials {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 14px;
+
+  margin-top: 27px;
+}
+
+
+.footer-socials a {
+  color:
+    rgba(255,255,255,0.55);
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  transition:
+    color 0.2s ease;
+}
+
+
+.footer-socials a:hover {
+  color: white;
+}
+
+
+/* =========================================================
+   COLUMNAS
+========================================================= */
+
+.footer-column h3 {
+  margin:
+    7px 0
+    23px;
+
+  color: white;
+
+  font-size: 0.83rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+
+.footer-column nav {
+  display: grid;
+
+  gap: 13px;
+}
+
+
+.footer-column nav a {
+  color:
+    rgba(255,255,255,0.57);
+
+  font-size: 0.82rem;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+.footer-column nav a:hover {
+  color: white;
+
+  transform:
+    translateX(3px);
+}
+
+
+/* =========================================================
+   CONTACTO
+========================================================= */
+
+.footer-contact {
+  display: block;
+}
+
+
+.footer-contact-item {
+  margin-bottom: 18px;
+}
+
+
+.footer-contact-item > span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color:
+    rgba(255,255,255,0.36);
+
+  font-size: 0.66rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+
+.footer-contact-item a {
+  display: inline-block;
+
+  color:
+    rgba(255,255,255,0.74);
+
+  font-size: 0.82rem;
+
+  line-height: 1.5;
+
+  overflow-wrap: anywhere;
+
+  transition:
+    color 0.2s ease;
+}
+
+
+.footer-contact-item a:hover {
+  color: white;
+}
+
+
+/* =========================================================
+   INFORMACIÓN INFERIOR
+========================================================= */
+
+.footer-information {
+  position: relative;
+
+  z-index: 2;
+
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 20px;
+
+  padding-bottom: 45px;
+}
+
+
+.footer-hours,
+.footer-location {
+  min-height: 145px;
+
+  padding: 27px 30px;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.08);
+
+  border-radius: 22px;
+
+  background:
+    rgba(255,255,255,0.035);
+}
+
+
+.footer-small-label {
+  display: block;
+
+  margin-bottom: 18px;
+
+  color:
+    rgba(255,255,255,0.34);
+
+  font-size: 0.67rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.1em;
+
+  text-transform: uppercase;
+}
+
+
+/* HORARIOS */
+
+.footer-hours-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap: 30px;
+}
+
+
+.footer-hours-grid > div {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+
+.footer-hours-grid span {
+  color:
+    rgba(255,255,255,0.5);
+
+  font-size: 0.74rem;
+}
+
+
+.footer-hours-grid strong {
+  color: white;
+
+  font-size: 1.12rem;
+}
+
+
+/* UBICACIÓN */
+
+.footer-location {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+
+.footer-location strong {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: white;
+
+  font-size: 1rem;
+}
+
+
+.footer-location p {
+  margin: 0;
+
+  color:
+    rgba(255,255,255,0.55);
+
+  font-size: 0.8rem;
+}
+
+
+.footer-location > a {
+  min-height: 42px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding:
+    0 16px;
+
+  flex-shrink: 0;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.13);
+
+  border-radius: 100px;
+
+  color: white;
+
+  font-size: 0.76rem;
+
+  font-weight: 800;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+.footer-location > a:hover {
+  background:
+    rgba(255,255,255,0.08);
+
+  transform:
+    translateY(-2px);
+}
+
+
+/* =========================================================
+   COPYRIGHT
+========================================================= */
+
+.footer-bottom {
+  position: relative;
+
+  z-index: 2;
+
+  border-top:
+    1px solid
+    rgba(255,255,255,0.065);
+}
+
+
+.footer-bottom-content {
+  min-height: 75px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+
+.footer-bottom-content span {
+  color:
+    rgba(255,255,255,0.34);
+
+  font-size: 0.7rem;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .footer-main {
+    grid-template-columns:
+      1.2fr 1fr;
+
+    gap:
+      55px 70px;
+  }
+
+
+  .footer-information {
+    grid-template-columns:
+      1fr;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+  .footer-main {
+    grid-template-columns:
+      1fr;
+
+    gap: 45px;
+
+    padding:
+      65px 0
+      55px;
+  }
+
+
+  .footer-brand {
+    max-width: 100%;
+  }
+
+
+  .footer-logo img {
+    height: 78px;
+  }
+
+
+  .footer-hours-grid {
+    grid-template-columns:
+      1fr;
+
+    gap: 18px;
+  }
+
+
+  .footer-location {
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+  }
+
+
+  .footer-bottom-content {
+    min-height: 90px;
+
+    align-items:
+      flex-start;
+
+    justify-content:
+      center;
+
+    flex-direction:
+      column;
+
+    gap: 6px;
+
+    padding:
+      20px 0;
+  }
+
+}
+/* =========================================================
+   CRÉDITO BLACORP
+========================================================= */
+
+.footer-copyright {
+  display: flex;
+
+  align-items: center;
+
+  gap: 22px;
+}
+
+
+.footer-credit {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color:
+    rgba(255,255,255,0.38);
+
+  font-size: 0.7rem;
+}
+
+
+.footer-credit strong {
+  color:
+    rgba(255,255,255,0.72);
+
+  font-size: 0.73rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.04em;
+}
+
+
+@media (max-width: 650px) {
+
+  .footer-copyright {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 5px;
+  }
+
+
+  .footer-credit {
+    margin-top: 12px;
+  }
+
+}

@@ -1,0 +1,105 @@
+{
+  "horarios": [
+    {
+      "id": "basica",
+      "titulo": "Enseñanza Básica",
+      "subtitulo": "Horario de clases",
+      "dias": "Lunes a viernes",
+      "desde": "08:30",
+      "hasta": "15:00"
+    },
+    {
+      "id": "media",
+      "titulo": "Enseñanza Media",
+      "subtitulo": "Horario de clases",
+      "dias": "Lunes a viernes",
+      "desde": "08:30",
+      "hasta": "15:30"
+    },
+    {
+      "id": "apoderados",
+      "titulo": "Atención a apoderados",
+      "subtitulo": "Horario de atención",
+      "dias": "Lunes a viernes",
+      "desde": "08:00",
+      "hasta": "11:00"
+    },   
+    {
+  "id": "colegio",
+  "titulo": "Atención del colegio",
+  "subtitulo": "Período escolar",
+  "dias": "Lunes a viernes",
+  "desde": "08:30",
+  "hasta": "17:00"
+},
+{
+  "id": "colegio-verano",
+  "titulo": "Atención del colegio",
+  "subtitulo": "Horario de verano",
+  "dias": "Lunes a viernes",
+  "desde": "08:30",
+  "hasta": "17:30"
+}
+  ],
+
+  "mensajeHorarios": "Agradecemos la puntualidad en los horarios de entrada y salida para el buen funcionamiento de nuestras jornadas escolares.",
+
+  "documentos": [
+    {
+      "id": "manual-convivencia-escolar",
+      "titulo": "Manual de Convivencia Escolar",
+      "descripcion": "Documento que establece las normas y lineamientos de convivencia de nuestra comunidad educativa.",
+      "categoria": "Reglamentos",
+      "archivo": "assets/documentos/manual-convivencia-escolar.pdf"
+    },
+    {
+      "id": "reglamento-evaluacion-promocion",
+      "titulo": "Reglamento de Evaluación y Promoción",
+      "descripcion": "Normativa relacionada con los procesos de evaluación, calificación y promoción de los estudiantes.",
+      "categoria": "Reglamentos",
+      "archivo": "assets/documentos/reglamento-evaluacion-promocion.pdf"
+    },
+    {
+      "id": "protocolo-maltrato",
+      "titulo": "Protocolo de Maltrato",
+      "descripcion": "Procedimientos institucionales para abordar situaciones relacionadas con maltrato.",
+      "categoria": "Protocolos",
+      "archivo": "assets/documentos/protocolo-maltrato.pdf"
+    },
+    {
+      "id": "protocolo-abuso",
+      "titulo": "Protocolo de Abuso",
+      "descripcion": "Procedimientos institucionales de actuación frente a situaciones de abuso.",
+      "categoria": "Protocolos",
+      "archivo": "assets/documentos/protocolo-abuso.pdf"
+    },
+    {
+      "id": "protocolo-tea",
+      "titulo": "Protocolo TEA",
+      "descripcion": "Protocolo institucional relacionado con estudiantes dentro del espectro autista.",
+      "categoria": "Protocolos",
+      "archivo": "assets/documentos/protocolo-tea.pdf"
+    },
+    {
+      "id": "protocolo-desregulacion",
+      "titulo": "Protocolo ante Desregulación Emocional y Conductual",
+      "descripcion": "Orientaciones y procedimientos de actuación ante situaciones de desregulación emocional y conductual.",
+      "categoria": "Protocolos",
+      "archivo": "assets/documentos/protocolo-desregulacion-emocional-conductual.pdf"
+    },
+    {
+      "id": "protocolo-vulneracion",
+      "titulo": "Protocolo de Vulneración de Derechos del Estudiante",
+      "descripcion": "Procedimientos institucionales ante situaciones que puedan constituir una vulneración de derechos.",
+      "categoria": "Protocolos",
+      "archivo": "assets/documentos/protocolo-vulneracion-derechos-estudiante.pdf"
+    },
+    {
+      "id": "instructivo-convivencia-web",
+      "titulo": "Instructivo de Convivencia Escolar Web",
+      "descripcion": "Documento informativo relacionado con convivencia escolar y sus procedimientos.",
+      "categoria": "Otros documentos",
+      "archivo": "assets/documentos/instructivo-convivencia-escolar-web.pdf"
+    }
+  ]
+}

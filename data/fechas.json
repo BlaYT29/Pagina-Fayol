@@ -1,0 +1,232 @@
+[
+  {
+    "id": "ano-nuevo-2026",
+    "fecha": "2026-01-01",
+    "fechaFin": "",
+    "titulo": "Año Nuevo",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "inicio-estudiantes-2026",
+    "fecha": "2026-03-04",
+    "fechaFin": "",
+    "titulo": "Ingreso de estudiantes 2026",
+    "descripcion": "Fecha establecida por el calendario escolar oficial de la Región Metropolitana.",
+    "categoria": "Calendario escolar",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "viernes-santo-2026",
+    "fecha": "2026-04-03",
+    "fechaFin": "",
+    "titulo": "Viernes Santo",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "sabado-santo-2026",
+    "fecha": "2026-04-04",
+    "fechaFin": "",
+    "titulo": "Sábado Santo",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "dia-trabajo-2026",
+    "fecha": "2026-05-01",
+    "fechaFin": "",
+    "titulo": "Día del Trabajo",
+    "descripcion": "Feriado nacional e irrenunciable.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "glorias-navales-2026",
+    "fecha": "2026-05-21",
+    "fechaFin": "",
+    "titulo": "Día de las Glorias Navales",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "fin-primer-semestre-2026",
+    "fecha": "2026-06-18",
+    "fechaFin": "",
+    "titulo": "Último día del primer semestre",
+    "descripcion": "Fecha del calendario escolar oficial de la Región Metropolitana.",
+    "categoria": "Calendario escolar",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "pueblos-indigenas-2026",
+    "fecha": "2026-06-21",
+    "fechaFin": "",
+    "titulo": "Día Nacional de los Pueblos Indígenas",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "vacaciones-invierno-2026",
+    "fecha": "2026-06-22",
+    "fechaFin": "2026-07-03",
+    "titulo": "Vacaciones de invierno",
+    "descripcion": "Receso de invierno establecido para la Región Metropolitana.",
+    "categoria": "Calendario escolar",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "san-pedro-pablo-2026",
+    "fecha": "2026-06-29",
+    "fechaFin": "",
+    "titulo": "San Pedro y San Pablo",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "inicio-segundo-semestre-2026",
+    "fecha": "2026-07-06",
+    "fechaFin": "",
+    "titulo": "Inicio del segundo semestre",
+    "descripcion": "Retorno a clases posterior a las vacaciones de invierno.",
+    "categoria": "Calendario escolar",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "virgen-carmen-2026",
+    "fecha": "2026-07-16",
+    "fechaFin": "",
+    "titulo": "Día de la Virgen del Carmen",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "asuncion-2026",
+    "fecha": "2026-08-15",
+    "fechaFin": "",
+    "titulo": "Asunción de la Virgen",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "pena-henri-fayol-2026",
+    "fecha": "2026-09-04",
+    "fechaFin": "",
+    "titulo": "Peña Henri Fayol 2026",
+    "descripcion": "Actividad realizada junto a nuestra comunidad educativa.",
+    "categoria": "Actividades Henri Fayol",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "independencia-2026",
+    "fecha": "2026-09-18",
+    "fechaFin": "",
+    "titulo": "Independencia Nacional",
+    "descripcion": "Feriado nacional e irrenunciable.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": true
+  },
+  {
+    "id": "glorias-ejercito-2026",
+    "fecha": "2026-09-19",
+    "fechaFin": "",
+    "titulo": "Día de las Glorias del Ejército",
+    "descripcion": "Feriado nacional e irrenunciable.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": true
+  },
+  {
+    "id": "encuentro-dos-mundos-2026",
+    "fecha": "2026-10-12",
+    "fechaFin": "",
+    "titulo": "Encuentro de Dos Mundos",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": true
+  },
+  {
+    "id": "dia-profesor-2026",
+    "fecha": "2026-10-16",
+    "fechaFin": "",
+    "titulo": "Día del Profesor y la Profesora",
+    "descripcion": "Jornada sin clases según el calendario escolar 2026 de la Región Metropolitana.",
+    "categoria": "Calendario escolar",
+    "estado": "confirmado",
+    "visibleEnInicio": true
+  },
+  {
+    "id": "iglesias-evangelicas-2026",
+    "fecha": "2026-10-31",
+    "fechaFin": "",
+    "titulo": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "todos-santos-2026",
+    "fecha": "2026-11-01",
+    "fechaFin": "",
+    "titulo": "Día de Todos los Santos",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "inmaculada-2026",
+    "fecha": "2026-12-08",
+    "fechaFin": "",
+    "titulo": "Inmaculada Concepción",
+    "descripcion": "Feriado nacional.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": true
+  },
+  {
+    "id": "termino-clases-2026",
+    "fecha": "",
+    "fechaFin": "",
+    "titulo": "Término de clases 2026",
+    "descripcion": "Fecha exacta del Colegio Henri Fayol por confirmar.",
+    "categoria": "Calendario escolar",
+    "estado": "pendiente",
+    "visibleEnInicio": false
+  },
+  {
+    "id": "navidad-2026",
+    "fecha": "2026-12-25",
+    "fechaFin": "",
+    "titulo": "Navidad",
+    "descripcion": "Feriado nacional e irrenunciable.",
+    "categoria": "Feriados",
+    "estado": "confirmado",
+    "visibleEnInicio": false
+  }
+]

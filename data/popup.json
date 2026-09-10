@@ -1,0 +1,17 @@
+{
+  "activo": true,
+  "id": "admision-2027",
+  "imagen": "assets/admision/admision-2027-simple.png",
+  "etiqueta": "Información importante",
+  "titulo": "Admisiones 2027",
+  "descripcion": "Ya se encuentra disponible la información correspondiente al proceso de Admisión 2027 del Colegio Henri Fayol.",
+  "boton": {
+    "texto": "Ver Admisión 2027",
+    "link": "admision.html"
+  },
+  "botonSecundario": {
+    "texto": "Ver documentos",
+    "link": "admision.html#documentos"
+  },
+  "mostrarUnaVez": true
+}

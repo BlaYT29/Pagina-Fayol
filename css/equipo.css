@@ -1,0 +1,776 @@
+/* =========================================
+   HERO
+========================================= */
+
+.team-hero {
+  padding:
+    180px 0
+    105px;
+
+  background:
+    linear-gradient(
+      125deg,
+      var(--primary-dark) 0%,
+      var(--primary) 65%,
+      #23618f 100%
+    );
+
+  color: white;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+
+.team-hero::after {
+  content: "";
+
+  position: absolute;
+
+  width: 430px;
+  height: 430px;
+
+  right: -100px;
+  top: -120px;
+
+  border-radius: 50%;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.12);
+}
+
+
+.team-hero::before {
+  content: "";
+
+  position: absolute;
+
+  width: 250px;
+  height: 250px;
+
+  right: 160px;
+  bottom: -150px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(255,255,255,0.04);
+}
+
+
+.team-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+.team-hero-label {
+  display: block;
+
+  margin-bottom: 14px;
+
+  color:
+    rgba(255,255,255,0.68);
+
+  font-size: 0.78rem;
+  font-weight: 800;
+
+  letter-spacing: 0.16em;
+
+  text-transform: uppercase;
+}
+
+
+.team-hero h1 {
+  max-width: 930px;
+
+  margin-bottom: 26px;
+
+  font-size:
+    clamp(
+      3rem,
+      7vw,
+      5.7rem
+    );
+
+  line-height: 1;
+
+  color: white;
+}
+
+
+.team-hero p {
+  max-width: 690px;
+
+  margin: 0;
+
+  color:
+    rgba(255,255,255,0.72);
+
+  font-size: 1.05rem;
+
+  line-height: 1.85;
+}
+
+
+/* =========================================
+   CONTENIDO
+========================================= */
+
+.team-section {
+  padding:
+    110px 0
+    130px;
+}
+
+
+.team-intro {
+  max-width: 750px;
+
+  margin-bottom: 50px;
+}
+
+
+.team-intro > span {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: var(--primary);
+
+  font-size: 0.78rem;
+  font-weight: 800;
+
+  letter-spacing: 0.14em;
+
+  text-transform: uppercase;
+}
+
+
+.team-intro h2 {
+  margin-bottom: 15px;
+
+  color: var(--primary-dark);
+
+  font-size:
+    clamp(
+      2.5rem,
+      5vw,
+      4rem
+    );
+}
+
+
+.team-intro p {
+  color: var(--text-light);
+
+  font-size: 1rem;
+}
+
+
+/* =========================================
+   TABS
+========================================= */
+
+.team-tabs {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-bottom: 25px;
+}
+
+
+.team-tab {
+  padding:
+    12px 20px;
+
+  border:
+    1px solid
+    var(--border);
+
+  border-radius: 100px;
+
+  background: white;
+
+  color: var(--text);
+
+  font-weight: 700;
+
+  transition:
+    0.25s ease;
+}
+
+
+.team-tab:hover {
+  transform:
+    translateY(-2px);
+
+  border-color:
+    var(--primary);
+
+  color:
+    var(--primary);
+}
+
+
+.team-tab.active {
+  background:
+    var(--primary);
+
+  border-color:
+    var(--primary);
+
+  color: white;
+
+  box-shadow:
+    0 8px 20px
+    rgba(16,60,104,0.16);
+}
+
+
+/* =========================================
+   CURSOS
+========================================= */
+
+.course-filter {
+  display: none;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin:
+    5px 0
+    45px;
+}
+
+
+.course-filter.visible {
+  display: flex;
+}
+
+
+.course-button {
+  padding:
+    8px 14px;
+
+  border:
+    1px solid
+    var(--border);
+
+  border-radius: 100px;
+
+  background:
+    var(--background);
+
+  color:
+    var(--text-light);
+
+  font-size: 0.78rem;
+
+  font-weight: 700;
+
+  transition:
+    0.2s ease;
+}
+
+
+.course-button:hover {
+  border-color:
+    var(--primary);
+
+  color:
+    var(--primary);
+}
+
+
+.course-button.active {
+  background:
+    var(--primary-dark);
+
+  border-color:
+    var(--primary-dark);
+
+  color: white;
+}
+
+
+/* =========================================
+   RESULTADOS
+========================================= */
+
+.team-results-header {
+  display: flex;
+
+  justify-content:
+    space-between;
+
+  align-items: flex-end;
+
+  gap: 30px;
+
+  margin-bottom: 30px;
+
+  padding-top: 25px;
+
+  border-top:
+    1px solid
+    var(--border);
+}
+
+
+.team-results-header h3 {
+  margin: 0;
+
+  color:
+    var(--primary-dark);
+
+  font-family:
+    "Playfair Display",
+    serif;
+
+  font-size: 2rem;
+}
+
+
+.team-results-header span {
+  color:
+    var(--text-light);
+
+  font-size:
+    0.85rem;
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.team-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 24px;
+}
+
+
+.team-grid.coordination {
+  grid-template-columns:
+    repeat(3, 1fr);
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.person-card {
+  overflow: hidden;
+
+  border:
+    1px solid
+    var(--border);
+
+  border-radius: 25px;
+
+  background: white;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.person-card:hover {
+  transform:
+    translateY(-7px);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+.person-photo {
+  position: relative;
+
+  aspect-ratio:
+    4 / 4.5;
+
+  overflow: hidden;
+
+  background:
+    #e7eef5;
+}
+
+
+.person-card.coordinator
+.person-photo {
+  aspect-ratio:
+    4 / 4;
+}
+
+
+.person-photo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+/* =========================================
+   SIN FOTO
+========================================= */
+
+.person-placeholder {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  background:
+    linear-gradient(
+      145deg,
+      #1b547f,
+      var(--primary-dark)
+    );
+}
+
+
+.person-placeholder::after {
+  content: "";
+
+  width: 160px;
+  height: 160px;
+
+  position: absolute;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.12);
+
+  border-radius: 50%;
+}
+
+
+.person-initials {
+  position: relative;
+
+  z-index: 2;
+
+  width: 105px;
+  height: 105px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:
+    rgba(255,255,255,0.09);
+
+  border:
+    1px solid
+    rgba(255,255,255,0.25);
+
+  color: white;
+
+  font-size: 2.1rem;
+
+  font-weight: 800;
+}
+
+
+/* =========================================
+   INFORMACIÓN
+========================================= */
+
+.person-content {
+  padding:
+    22px 22px
+    25px;
+}
+
+
+.person-tag {
+  display: inline-block;
+
+  margin-bottom: 10px;
+
+  color:
+    var(--primary);
+
+  font-size:
+    0.71rem;
+
+  font-weight: 800;
+
+  letter-spacing:
+    0.07em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.person-content h3 {
+  margin-bottom:
+    6px;
+
+  color:
+    var(--primary-dark);
+
+  font-size:
+    1.08rem;
+
+  line-height:
+    1.35;
+}
+
+
+.person-role {
+  margin-bottom:
+    5px;
+
+  color:
+    var(--text);
+
+  font-size:
+    0.86rem;
+
+  font-weight:
+    600;
+}
+
+
+.person-subject {
+  margin-bottom:
+    14px;
+
+  color:
+    var(--text-light);
+
+  font-size:
+    0.84rem;
+}
+
+
+.person-headteacher {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  margin-bottom:
+    15px;
+
+  padding:
+    6px 10px;
+
+  border-radius:
+    50px;
+
+  background:
+    rgba(16,60,104,0.08);
+
+  color:
+    var(--primary);
+
+  font-size:
+    0.72rem;
+
+  font-weight:
+    800;
+}
+
+
+.person-email {
+  display: block;
+
+  padding-top:
+    14px;
+
+  border-top:
+    1px solid
+    var(--border);
+
+  color:
+    var(--primary);
+
+  font-size:
+    0.78rem;
+
+  word-break:
+    break-word;
+
+  transition:
+    color 0.2s ease;
+}
+
+
+.person-email:hover {
+  color:
+    var(--primary-dark);
+
+  text-decoration:
+    underline;
+}
+
+
+/* =========================================
+   VACÍO
+========================================= */
+
+.team-empty {
+  grid-column:
+    1 / -1;
+
+  padding:
+    65px 30px;
+
+  border:
+    1px dashed
+    var(--border);
+
+  border-radius:
+    24px;
+
+  background:
+    var(--background);
+
+  text-align:
+    center;
+}
+
+
+.team-empty strong {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color:
+    var(--primary-dark);
+
+  font-size: 1.05rem;
+}
+
+
+.team-empty p {
+  margin: 0;
+
+  color:
+    var(--text-light);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (
+  max-width: 1000px
+) {
+
+  .team-grid,
+  .team-grid.coordination {
+    grid-template-columns:
+      repeat(3,1fr);
+  }
+
+}
+
+
+/* =========================================
+   TABLET PEQUEÑO
+========================================= */
+
+@media (
+  max-width: 760px
+) {
+
+  .team-hero {
+    padding:
+      145px 0
+      75px;
+  }
+
+
+  .team-section {
+    padding:
+      80px 0;
+  }
+
+
+  .team-grid,
+  .team-grid.coordination {
+    grid-template-columns:
+      repeat(2,1fr);
+  }
+
+
+  .team-results-header {
+    flex-direction:
+      column;
+
+    align-items:
+      flex-start;
+
+    gap: 5px;
+  }
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (
+  max-width: 500px
+) {
+
+  .team-tabs {
+    display: grid;
+
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+
+  .team-tab {
+    padding:
+      11px 8px;
+
+    font-size:
+      0.78rem;
+  }
+
+
+  .team-grid,
+  .team-grid.coordination {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .person-photo {
+    aspect-ratio:
+      4 / 4;
+  }
+
+}

@@ -1,0 +1,657 @@
+/* =========================================
+   HERO
+========================================= */
+
+.dates-hero {
+  position: relative;
+
+  padding:
+    180px 0
+    105px;
+
+  overflow: hidden;
+
+  color: white;
+
+  background:
+    linear-gradient(
+      125deg,
+      #061d33,
+      var(--primary-dark) 48%,
+      var(--primary)
+    );
+}
+
+
+.dates-hero::after {
+  content: "";
+
+  position: absolute;
+
+  width: 540px;
+  height: 540px;
+
+  right: -190px;
+  top: -230px;
+
+  border-radius: 50%;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.12);
+}
+
+
+.dates-hero-grid {
+  position: relative;
+
+  z-index: 2;
+
+  display: grid;
+
+  grid-template-columns:
+    1.25fr 0.75fr;
+
+  gap: 70px;
+
+  align-items: center;
+}
+
+
+.dates-hero-content > span {
+  display: block;
+
+  margin-bottom: 14px;
+
+  color:
+    rgba(255,255,255,0.65);
+
+  font-size: 0.78rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.16em;
+
+  text-transform: uppercase;
+}
+
+
+.dates-hero h1 {
+  margin-bottom: 24px;
+
+  color: white;
+
+  font-size:
+    clamp(
+      3.2rem,
+      7vw,
+      5.8rem
+    );
+
+  line-height: 1;
+}
+
+
+.dates-hero-content p {
+  max-width: 630px;
+
+  margin: 0;
+
+  color:
+    rgba(255,255,255,0.7);
+
+  font-size: 1.05rem;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   PRÓXIMA FECHA
+========================================= */
+
+.next-date-card {
+  padding: 35px;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.15);
+
+  border-radius: 28px;
+
+  background:
+    rgba(255,255,255,0.07);
+
+  backdrop-filter: blur(12px);
+}
+
+
+.next-date-label {
+  display: block;
+
+  margin-bottom: 22px;
+
+  color:
+    rgba(255,255,255,0.55);
+
+  font-size: 0.72rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+
+  text-transform: uppercase;
+}
+
+
+.next-date-date {
+  display: flex;
+
+  align-items: flex-end;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+
+.next-date-date strong {
+  color: white;
+
+  font-size: 4.5rem;
+
+  line-height: 0.85;
+}
+
+
+.next-date-date span {
+  padding-bottom: 4px;
+
+  color:
+    rgba(255,255,255,0.65);
+
+  font-size: 0.9rem;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+
+.next-date-card h3 {
+  margin-bottom: 8px;
+
+  color: white;
+
+  font-size: 1.3rem;
+}
+
+
+.next-date-card p {
+  margin: 0;
+
+  color:
+    rgba(255,255,255,0.6);
+
+  font-size: 0.85rem;
+}
+
+
+/* =========================================
+   CONTENIDO
+========================================= */
+
+.dates-section {
+  padding:
+    115px 0
+    130px;
+}
+
+
+.dates-intro {
+  margin-bottom: 40px;
+}
+
+
+.dates-intro > div {
+  max-width: 760px;
+}
+
+
+.dates-intro span {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color:
+    var(--primary);
+
+  font-size: 0.77rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.14em;
+
+  text-transform: uppercase;
+}
+
+
+.dates-intro h2 {
+  margin-bottom: 15px;
+
+  color:
+    var(--primary-dark);
+
+  font-size:
+    clamp(
+      2.5rem,
+      5vw,
+      4rem
+    );
+}
+
+
+.dates-intro p {
+  margin: 0;
+
+  color:
+    var(--text-light);
+}
+
+
+/* =========================================
+   FILTROS
+========================================= */
+
+.dates-filters {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 9px;
+
+  margin-bottom: 45px;
+}
+
+
+.dates-filter {
+  padding:
+    10px 17px;
+
+  border:
+    1px solid
+    var(--border);
+
+  border-radius: 100px;
+
+  background: white;
+
+  color:
+    var(--text);
+
+  font-size: 0.83rem;
+
+  font-weight: 700;
+
+  transition: 0.2s ease;
+}
+
+
+.dates-filter:hover {
+  border-color:
+    var(--primary);
+
+  color:
+    var(--primary);
+}
+
+
+.dates-filter.active {
+  border-color:
+    var(--primary);
+
+  background:
+    var(--primary);
+
+  color: white;
+}
+
+
+/* =========================================
+   LISTADO
+========================================= */
+
+.dates-list {
+  display: grid;
+
+  gap: 13px;
+}
+
+
+.date-row {
+  display: grid;
+
+  grid-template-columns:
+    115px 1fr auto;
+
+  gap: 25px;
+
+  align-items: center;
+
+  min-height: 125px;
+
+  padding: 20px 25px;
+
+  border:
+    1px solid
+    var(--border);
+
+  border-radius: 22px;
+
+  background: white;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+.date-row:hover {
+  transform:
+    translateY(-3px);
+
+  box-shadow:
+    0 12px 35px
+    rgba(18,38,63,0.07);
+}
+
+
+.date-row.past {
+  opacity: 0.62;
+}
+
+
+.date-main {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  min-height: 75px;
+
+  padding-right: 22px;
+
+  border-right:
+    1px solid
+    var(--border);
+}
+
+
+.date-main strong {
+  color:
+    var(--primary);
+
+  font-size: 2.4rem;
+
+  line-height: 1;
+}
+
+
+.date-main span {
+  color:
+    var(--text-light);
+
+  font-size: 0.72rem;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+}
+
+
+.date-range {
+  flex-direction: column;
+
+  gap: 2px;
+
+  text-align: center;
+}
+
+
+.date-range strong {
+  font-size: 1.15rem;
+}
+
+
+.date-info h3 {
+  margin-bottom: 6px;
+
+  color:
+    var(--primary-dark);
+
+  font-size: 1rem;
+}
+
+
+.date-info p {
+  margin: 0;
+
+  color:
+    var(--text-light);
+
+  font-size: 0.84rem;
+}
+
+
+.date-category {
+  padding:
+    7px 12px;
+
+  border-radius: 100px;
+
+  background:
+    var(--background);
+
+  color:
+    var(--primary);
+
+  font-size: 0.7rem;
+
+  font-weight: 800;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   PENDIENTE
+========================================= */
+
+.date-row.pending
+.date-main {
+  flex-direction: column;
+}
+
+
+.date-row.pending
+.date-main strong {
+  font-size: 0.73rem;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.06em;
+}
+
+
+/* =========================================
+   VACÍO
+========================================= */
+
+.dates-empty {
+  padding:
+    70px 30px;
+
+  border:
+    1px dashed
+    var(--border);
+
+  border-radius: 24px;
+
+  text-align: center;
+
+  background:
+    var(--background);
+
+  color:
+    var(--text-light);
+}
+
+
+/* =========================================
+   NOTA
+========================================= */
+
+.dates-note {
+  display: flex;
+
+  gap: 18px;
+
+  margin-top: 50px;
+
+  padding: 25px;
+
+  border-radius: 20px;
+
+  background:
+    var(--background);
+}
+
+
+.dates-note-icon {
+  width: 38px;
+  height: 38px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:
+    var(--primary);
+
+  color: white;
+
+  font-family: Georgia, serif;
+
+  font-weight: 700;
+}
+
+
+.dates-note strong {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color:
+    var(--primary-dark);
+}
+
+
+.dates-note p {
+  margin: 0;
+
+  color:
+    var(--text-light);
+
+  font-size: 0.84rem;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+  .dates-hero-grid {
+    grid-template-columns:
+      1fr;
+
+    gap: 45px;
+  }
+
+
+  .next-date-card {
+    max-width: 500px;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .dates-hero {
+    padding:
+      150px 0
+      75px;
+  }
+
+
+  .dates-section {
+    padding:
+      80px 0;
+  }
+
+
+  .date-row {
+    grid-template-columns:
+      80px 1fr;
+
+    gap: 17px;
+
+    padding: 18px;
+  }
+
+
+  .date-category {
+    grid-column:
+      2;
+
+    justify-self:
+      start;
+  }
+
+
+  .date-main {
+    padding-right: 15px;
+  }
+
+
+  .date-main strong {
+    font-size: 1.9rem;
+  }
+
+
+  .dates-filters {
+    overflow-x: auto;
+
+    flex-wrap: nowrap;
+
+    padding-bottom: 5px;
+  }
+
+
+  .dates-filter {
+    flex-shrink: 0;
+  }
+
+}

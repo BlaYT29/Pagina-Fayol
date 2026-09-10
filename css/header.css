@@ -1,0 +1,532 @@
+.header {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+
+  background: rgba(
+    255,
+    255,
+    255,
+    0.96
+  );
+
+  border-bottom:
+    1px solid transparent;
+
+  transition:
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.header.scrolled {
+  border-color: var(--border);
+
+  box-shadow:
+    0 10px 30px rgba(
+      17,
+      37,
+      63,
+      0.08
+    );
+}
+
+.header-container {
+  width: min(
+    var(--container),
+    calc(100% - 40px)
+  );
+
+  height: 86px;
+
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo img {
+  height: 58px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  gap: 28px;
+}
+
+.nav a {
+  position: relative;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  color: var(--text);
+
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--primary);
+}
+
+.nav a:not(.nav-contacto)::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -7px;
+
+  width: 0;
+  height: 2px;
+
+  background: var(--secondary);
+
+  transition: width 0.25s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav-contacto {
+  padding: 11px 18px;
+
+  border-radius: 50px;
+
+  background: var(--primary);
+
+  color: white !important;
+}
+
+.nav-contacto:hover {
+  background: var(--primary-dark);
+}
+
+.menu-button {
+  width: 42px;
+  height: 42px;
+
+  display: none;
+
+  border: none;
+  background: transparent;
+}
+
+.menu-button span {
+  display: block;
+
+  width: 25px;
+  height: 2px;
+
+  margin: 6px auto;
+
+  background: var(--primary-dark);
+
+  transition: 0.3s ease;
+}
+
+@media (max-width: 900px) {
+
+  .menu-button {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+
+    top: 86px;
+    left: 20px;
+    right: 20px;
+
+    display: none;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 25px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+    border-radius: 20px;
+
+    box-shadow: var(--shadow);
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .nav-contacto {
+    width: 100%;
+
+    text-align: center;
+  }
+
+}
+/* =========================================
+   DROPDOWN INFORMACIÓN
+========================================= */
+
+.nav-dropdown {
+  position: relative;
+}
+
+
+.nav-dropdown-toggle {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  padding: 0;
+
+  border: none;
+
+  background: transparent;
+
+  color:
+    var(--text);
+
+  font-family: inherit;
+
+  font-size: inherit;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    color 0.2s ease;
+}
+
+
+.nav-dropdown-toggle:hover {
+  color:
+    var(--primary);
+}
+
+
+.nav-dropdown-arrow {
+  display: inline-block;
+
+  font-size: 0.72rem;
+
+  transition:
+    transform 0.25s ease;
+}
+
+
+/* MENU */
+
+.nav-dropdown-menu {
+  position: absolute;
+
+  top:
+    calc(100% + 22px);
+
+  left: 50%;
+
+  width: 310px;
+
+  padding: 10px;
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  transform:
+    translate(
+      -50%,
+      -8px
+    );
+
+  border:
+    1px solid
+    var(--border);
+
+  border-radius: 18px;
+
+  background: white;
+
+  box-shadow:
+    0 22px 60px
+    rgba(10,31,52,0.14);
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    visibility 0.2s ease;
+}
+
+
+/* puente invisible para no perder el hover */
+
+.nav-dropdown-menu::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  top: -25px;
+
+  height: 25px;
+}
+
+
+/* ABRIR EN PC */
+
+.nav-dropdown:hover
+.nav-dropdown-menu,
+
+.nav-dropdown:focus-within
+.nav-dropdown-menu,
+
+.nav-dropdown.open
+.nav-dropdown-menu {
+  opacity: 1;
+
+  visibility: visible;
+
+  transform:
+    translate(
+      -50%,
+      0
+    );
+}
+
+
+.nav-dropdown:hover
+.nav-dropdown-arrow,
+
+.nav-dropdown.open
+.nav-dropdown-arrow {
+  transform:
+    rotate(180deg);
+}
+
+
+/* LINKS DROPDOWN */
+
+.nav-dropdown-menu a {
+  display: block;
+
+  padding:
+    14px 15px;
+
+  border-radius: 12px;
+
+  color:
+    var(--text);
+
+  transition:
+    background 0.2s ease;
+}
+
+
+.nav-dropdown-menu a::after {
+  display: none;
+}
+
+
+.nav-dropdown-menu a:hover {
+  background:
+    var(--background);
+}
+
+
+.nav-dropdown-menu strong {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color:
+    var(--primary-dark);
+
+  font-size: 0.85rem;
+}
+
+
+.nav-dropdown-menu span {
+  display: block;
+
+  color:
+    var(--text-light);
+
+  font-size: 0.72rem;
+
+  font-weight: 400;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+
+  .nav-dropdown-toggle {
+    width: 100%;
+
+    justify-content:
+      space-between;
+
+    padding:
+      14px 0;
+
+    font-size: 1rem;
+  }
+
+
+  .nav-dropdown-menu {
+    position: static;
+
+    width: 100%;
+
+    max-height: 0;
+
+    margin: 0;
+
+    padding: 0;
+
+    opacity: 1;
+
+    visibility: visible;
+
+    overflow: hidden;
+
+    transform: none;
+
+    border: none;
+
+    border-radius: 0;
+
+    box-shadow: none;
+
+    background:
+      var(--background);
+
+    transition:
+      max-height 0.3s ease,
+      padding 0.3s ease;
+  }
+
+
+  .nav-dropdown:hover
+  .nav-dropdown-menu,
+
+  .nav-dropdown:focus-within
+  .nav-dropdown-menu {
+    max-height: 0;
+
+    padding: 0;
+  }
+
+
+  .nav-dropdown.open
+  .nav-dropdown-menu {
+    max-height: 300px;
+
+    padding:
+      7px;
+  }
+
+
+  .nav-dropdown-menu::before {
+    display: none;
+  }
+
+
+  .nav-dropdown-menu a {
+    padding:
+      12px;
+  }
+
+}
+/* =========================================================
+   LOGO HEADER - TAMAÑO GRANDE
+========================================================= */
+
+.header-logo {
+  display: flex;
+
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+
+.header-logo img {
+  width: auto;
+
+  height: 100px;
+
+  max-width: 280px;
+
+  object-fit: contain;
+
+  transition:
+    transform 0.25s ease;
+}
+
+
+.header-logo:hover img {
+  transform:
+    scale(1.03);
+}
+
+
+/* HEADER MÁS ALTO PARA EL LOGO */
+
+@media (min-width: 901px) {
+
+  .header-container {
+    min-height: 118px;
+
+    gap: 30px;
+  }
+
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .header-logo img {
+    height: 82px;
+
+    max-width: 230px;
+  }
+
+}
+
+
+/* CELULAR */
+
+@media (max-width: 500px) {
+
+  .header-logo img {
+    height: 72px;
+
+    max-width: 200px;
+  }
+
+}

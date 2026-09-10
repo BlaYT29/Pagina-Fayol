@@ -1,0 +1,30 @@
+[
+  {
+    "valor": 170,
+    "prefijo": "",
+    "sufijo": "",
+    "titulo": "Estudiantes",
+    "descripcion": "Actualmente forman parte de nuestra comunidad."
+  },
+  {
+    "valor": 15,
+    "prefijo": "",
+    "sufijo": "",
+    "titulo": "Alumnos por sala",
+    "descripcion": "Cursos que permiten una educación más cercana."
+  },
+  {
+    "valor": 1543,
+    "prefijo": "",
+    "sufijo": "",
+    "titulo": "Egresados",
+    "descripcion": "Forman parte de la historia del Henri Fayol."
+  },
+  {
+    "valor": 12,
+    "prefijo": "",
+    "sufijo": " niveles",
+    "titulo": "Trayectoria escolar",
+    "descripcion": "Desde 1° Básico hasta 4° Medio."
+  }
+]

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Galería de actividades del Colegio Henri Fayol"
+  >
+
+  <title>
+    Galería | Colegio Henri Fayol
+  </title>
+
+  <link
+  rel="icon"
+  type="image/png"
+  href="assets/logo/logo.png"
+>
+
+
+  <link
+    rel="stylesheet"
+    href="css/global.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/header.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/footer.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/galeria.css"
+  >
+
+</head>
+
+
+<body>
+
+  <div id="header-container"></div>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="gallery-hero">
+
+      <div class="container">
+
+        <span>
+          Vida escolar
+        </span>
+
+
+        <h1>
+          Momentos que forman
+          nuestra historia
+        </h1>
+
+
+        <p>
+          Conoce algunas de las actividades,
+          celebraciones y experiencias que
+          compartimos como comunidad educativa.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- GALERÍA -->
+
+    <section class="gallery-section">
+
+      <div class="container">
+
+        <header class="gallery-intro">
+
+          <div>
+
+            <span>
+              Colegio Henri Fayol
+            </span>
+
+            <h2>
+              Nuestra galería
+            </h2>
+
+            <p>
+              Explora nuestras actividades
+              y descubre la vida cotidiana
+              de nuestra comunidad.
+            </p>
+
+          </div>
+
+
+          <div class="gallery-counter">
+
+            <strong id="gallery-total">
+              0
+            </strong>
+
+            <span>
+              fotografías
+            </span>
+
+          </div>
+
+        </header>
+
+
+        <!-- FILTROS -->
+
+        <div
+          class="gallery-filters"
+          id="gallery-filters"
+        ></div>
+
+
+        <!-- FOTOS -->
+
+        <div
+          class="gallery-grid"
+          id="gallery-grid"
+        ></div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <div id="footer-container"></div>
+
+
+  <!-- LIGHTBOX -->
+
+  <div
+    class="gallery-lightbox"
+    id="gallery-lightbox"
+    aria-hidden="true"
+  >
+
+    <div
+      class="gallery-lightbox-background"
+      id="gallery-lightbox-background"
+    ></div>
+
+
+    <div class="gallery-lightbox-content">
+
+      <!-- CERRAR -->
+
+      <button
+        class="gallery-lightbox-close"
+        id="gallery-lightbox-close"
+        type="button"
+        aria-label="Cerrar galería"
+      >
+        ×
+      </button>
+
+
+      <!-- ANTERIOR -->
+
+      <button
+        class="
+          gallery-lightbox-arrow
+          gallery-lightbox-prev
+        "
+        id="gallery-prev"
+        type="button"
+        aria-label="Fotografía anterior"
+      >
+        ‹
+      </button>
+
+
+      <!-- IMAGEN -->
+
+      <figure>
+
+        <img
+          id="gallery-lightbox-image"
+          src=""
+          alt=""
+        >
+
+
+        <figcaption>
+
+          <div>
+
+            <span
+              id="gallery-lightbox-category"
+            ></span>
+
+
+            <h3
+              id="gallery-lightbox-title"
+            ></h3>
+
+          </div>
+
+
+          <span
+            id="gallery-lightbox-count"
+          ></span>
+
+        </figcaption>
+
+      </figure>
+
+
+      <!-- SIGUIENTE -->
+
+      <button
+        class="
+          gallery-lightbox-arrow
+          gallery-lightbox-next
+        "
+        id="gallery-next"
+        type="button"
+        aria-label="Fotografía siguiente"
+      >
+        ›
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <script src="js/header.js"></script>
+
+  <script src="js/main.js"></script>
+
+  <script src="js/galeria.js"></script>
+
+</body>
+
+</html>

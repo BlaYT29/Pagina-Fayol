@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Contacto, ubicación y horarios de atención del Colegio Henri Fayol"
+  >
+
+  <title>
+    Contacto | Colegio Henri Fayol
+  </title>
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="assets/logo/logo.png"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/global.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/header.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/footer.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/contacto.css"
+  >
+
+</head>
+
+
+<body>
+
+  <div id="header-container"></div>
+
+
+  <main>
+
+
+    <!-- =====================================
+         HERO
+    ====================================== -->
+
+    <section class="contact-hero">
+
+      <div class="container">
+
+        <span>
+          Contáctanos
+        </span>
+
+        <h1>
+          Estamos aquí para ayudarte
+        </h1>
+
+        <p>
+          Si necesitas información, tienes alguna
+          consulta o quieres conocer más sobre nuestro
+          colegio, puedes comunicarte con nosotros
+          a través de nuestros canales de atención.
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         FORMAS DE CONTACTO
+    ====================================== -->
+
+    <section class="contact-options">
+
+      <div class="container">
+
+
+        <header class="contact-section-header">
+
+          <span>
+            Colegio Henri Fayol
+          </span>
+
+          <h2>
+            Formas de contacto
+          </h2>
+
+          <p>
+            Elige el medio que necesites para
+            comunicarte con nuestro establecimiento.
+          </p>
+
+        </header>
+
+
+        <div
+          class="contact-options-grid"
+          id="contact-options-grid"
+        ></div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         FORMULARIO + HORARIOS
+    ====================================== -->
+
+    <section class="contact-main">
+
+      <div class="container contact-main-grid">
+
+
+        <!-- FORMULARIO -->
+
+        <div class="contact-form-area">
+
+          <span class="contact-eyebrow">
+            Escríbenos
+          </span>
+
+
+          <h2>
+            ¿En qué podemos ayudarte?
+          </h2>
+
+
+          <p class="contact-form-description">
+            Completa tus datos y envía tu consulta
+            directamente al Colegio Henri Fayol.
+          </p>
+
+
+          <form
+            class="contact-form"
+            id="contact-form"
+          >
+
+
+            <div class="contact-form-row">
+
+
+              <div class="contact-field">
+
+                <label for="contact-name">
+                  Nombre y apellido
+                </label>
+
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="nombre"
+                  autocomplete="name"
+                  placeholder="Ej: Juan Pérez"
+                  required
+                >
+
+              </div>
+
+
+              <div class="contact-field">
+
+                <label for="contact-email">
+                  Correo electrónico
+                </label>
+
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="correo"
+                  autocomplete="email"
+                  placeholder="nombre@correo.cl"
+                  required
+                >
+
+              </div>
+
+
+            </div>
+
+
+
+            <div class="contact-form-row">
+
+
+              <div class="contact-field">
+
+                <label for="contact-phone">
+                  Teléfono
+                </label>
+
+                <input
+                  type="tel"
+                  id="contact-phone"
+                  name="telefono"
+                  autocomplete="tel"
+                  placeholder="+56 9..."
+                >
+
+              </div>
+
+
+              <div class="contact-field">
+
+                <label for="contact-reason">
+                  Motivo de contacto
+                </label>
+
+                <select
+                  id="contact-reason"
+                  name="motivo"
+                  required
+                >
+
+                  <option value="">
+                    Selecciona una opción
+                  </option>
+
+                  <option value="Admisión">
+                    Admisión
+                  </option>
+
+                  <option value="Secretaría">
+                    Secretaría
+                  </option>
+
+                  <option value="Convivencia Escolar">
+                    Convivencia Escolar
+                  </option>
+
+                  <option value="Información académica">
+                    Información académica
+                  </option>
+
+                  <option value="Documentos y reglamentos">
+                    Documentos y reglamentos
+                  </option>
+
+                  <option value="Información general">
+                    Información general
+                  </option>
+
+                  <option value="Otro">
+                    Otro
+                  </option>
+
+                </select>
+
+              </div>
+
+
+            </div>
+
+
+
+            <div class="contact-field">
+
+              <label for="contact-message">
+                Mensaje
+              </label>
+
+              <textarea
+                id="contact-message"
+                name="mensaje"
+                rows="7"
+                placeholder="Escribe aquí tu consulta..."
+                required
+              ></textarea>
+
+            </div>
+
+
+
+            <div class="contact-form-footer">
+
+              <button
+                type="submit"
+                class="contact-submit"
+                id="contact-submit"
+              >
+                Enviar consulta
+              </button>
+
+              <span>
+                Tu consulta será enviada directamente
+                al Colegio Henri Fayol.
+              </span>
+
+            </div>
+
+
+            <div
+              class="contact-form-status"
+              id="contact-form-status"
+              role="status"
+              aria-live="polite"
+            ></div>
+
+
+          </form>
+
+        </div>
+
+
+
+        <!-- COLUMNA DERECHA -->
+
+        <aside class="contact-side">
+
+
+          <!-- HORARIOS OFICINA -->
+
+          <div class="contact-side-card">
+
+            <span>
+              Horarios de oficina
+            </span>
+
+
+            <h3>
+              Atención del colegio
+            </h3>
+
+
+            <div
+              class="contact-hours"
+              id="contact-hours"
+            ></div>
+
+
+            <a
+              href="informacion.html#horarios"
+              class="contact-side-link"
+            >
+              Ver todos los horarios →
+            </a>
+
+          </div>
+
+
+
+          <!-- ADMISION -->
+
+          <div
+            class="
+              contact-side-card
+              contact-admission-card
+            "
+          >
+
+            <span>
+              Admisiones 2027
+            </span>
+
+
+            <h3>
+              ¿Quieres formar parte del Henri Fayol?
+            </h3>
+
+
+            <p>
+              Conoce los pasos, antecedentes
+              y documentos necesarios para iniciar
+              el proceso de Admisión 2027.
+            </p>
+
+
+            <a
+              href="admision.html"
+              class="contact-admission-button"
+            >
+              Conocer Admisión 2027
+            </a>
+
+          </div>
+
+
+        </aside>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         UBICACIÓN
+    ====================================== -->
+
+    <section class="contact-location">
+
+      <div class="container">
+
+
+        <header class="contact-section-header">
+
+          <span>
+            Visita la escuela
+          </span>
+
+
+          <h2>
+            Nuestra ubicación
+          </h2>
+
+
+          <p id="contact-location-address">
+            Manuel de Salas 487, Ñuñoa
+          </p>
+
+        </header>
+
+
+
+        <div class="contact-map">
+
+          <iframe
+            id="contact-map-frame"
+            title="Ubicación del Colegio Henri Fayol"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+        </div>
+
+
+
+        <div class="contact-map-footer">
+
+          <div>
+
+            <strong>
+              Colegio Henri Fayol
+            </strong>
+
+            <span id="contact-map-address">
+              Manuel de Salas 487, Ñuñoa
+            </span>
+
+          </div>
+
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="contact-directions"
+            id="contact-directions"
+          >
+            Cómo llegar →
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <div id="footer-container"></div>
+
+
+  <script src="js/header.js"></script>
+
+  <script src="js/main.js"></script>
+
+  <script src="js/contacto.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+{
+  "anio": "2027",
+
+  "hero": {
+    "etiqueta": "Admisiones 2027",
+    "titulo": "Tu camino al Henri Fayol comienza aquí",
+    "descripcion": "Conoce nuestro proceso de admisión y da los primeros pasos para formar parte de nuestra comunidad educativa."
+  },
+
+  "introduccion": {
+    "etiqueta": "Proceso de Admisión",
+    "titulo": "Postular es muy sencillo",
+    "descripcion": "Si quieres matricularte en nuestro colegio, sigue estos simples pasos. Nuestro equipo te acompañará durante cada etapa del proceso."
+  },
+
+  "pasos": [
+    {
+      "numero": "01",
+      "titulo": "Contacto",
+      "descripcion": "Para continuar con la postulación, deberás proporcionar a nuestra secretaria de Admisión todos los antecedentes solicitados. Estos documentos son necesarios para que el o los alumnos(as) que están postulando puedan acceder a la evaluación diagnóstica."
+    },
+    {
+      "numero": "02",
+      "titulo": "Conoce tu colegio",
+      "descripcion": "Los apoderados serán invitados a una entrevista con un miembro del Equipo Directivo. En esta entrevista se explicará nuestro proyecto educativo y los objetivos del colegio para sus hijos(as). Es importante que los padres y/o apoderados compartan y acepten estos objetivos."
+    },
+    {
+      "numero": "03",
+      "titulo": "Inscripción",
+      "descripcion": "Para los postulantes de Enseñanza Básica, una vez entregada la ficha de postulación, se les agendará una visita al colegio. Durante esta visita, los estudiantes compartirán con sus futuros compañeros durante una jornada desde las 08:30 hasta las 13:00."
+    },
+    {
+      "numero": "04",
+      "titulo": "Entrevista final",
+      "descripcion": "Los apoderados serán invitados a una entrevista con un miembro del Equipo Directivo. En esta entrevista se explicará nuestro proyecto educativo y los objetivos del colegio para sus hijos(as). Es importante que los padres y/o apoderados compartan y acepten estos objetivos."
+    }
+  ],
+
+  "contacto": {
+    "titulo": "¿Quieres iniciar tu postulación?",
+    "descripcion": "Puedes comunicarte con nuestra secretaria de Admisión vía telefónica, por correo electrónico, de forma presencial o mediante nuestra página de contacto.",
+    "correo": "colegiohenrifayol@gmail.com",
+    "direccion": "Manuel de Salas 487"
+  },
+
+  "documentos": [
+    {
+      "id": "antecedentes-valores-2027",
+      "titulo": "Antecedentes y valores de pago 2027",
+      "descripcion": "Información sobre antecedentes requeridos y valores correspondientes a alumnos nuevos.",
+      "archivo": "assets/documentos/antecedentes-valores-2027.pdf"
+    },
+    {
+      "id": "ficha-alumnos-2027",
+      "titulo": "Ficha Alumnos 2027",
+      "descripcion": "Ficha necesaria para iniciar el proceso de postulación.",
+      "archivo": "assets/documentos/ficha-alumnos-2027.pdf"
+    },
+    {
+      "id": "pasos-admision-2027",
+      "titulo": "Pasos del proceso de Admisión 2027",
+      "descripcion": "Documento con información detallada sobre las etapas del proceso de admisión.",
+      "archivo": "assets/documentos/pasos-admision-2027.pdf"
+    },
+    {
+      "id": "rematriculacion-2027",
+      "titulo": "Proceso de Rematriculación 2027",
+      "descripcion": "Información correspondiente al proceso de rematrícula de estudiantes.",
+      "archivo": "assets/documentos/rematriculacion-2027.pdf"
+    }
+  ]
+}

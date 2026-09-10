@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rematricula-2027",
+    "titulo": "Rematrícula Año Escolar 2027",
+    "categoria": "Información importante",
+    "fecha": "2026-09-10",
+    "imagen": "assets/noticias/rematricula-2027.png",
+    "imagenAlt": "Información sobre el proceso de Rematrícula 2027 del Colegio Henri Fayol",
+    "resumen": "El proceso de rematrícula para el Año Escolar 2027 se encuentra disponible hasta el 11 de septiembre con valor preferencial.",
+    "descripcion": "El Colegio Henri Fayol informa a su comunidad sobre el proceso de Rematrícula para el Año Escolar 2027.",
+    "contenido": [
+      "El Colegio Henri Fayol informa a nuestra comunidad educativa que el proceso de rematrícula correspondiente al Año Escolar 2027 se encuentra disponible.",
+      "Hasta el 11 de septiembre, el valor de la rematrícula será de $290.000. En caso de realizar la rematrícula con posterioridad a esta fecha, se deberá cancelar el valor correspondiente a alumno nuevo, equivalente a $300.000.",
+      "El pago puede realizarse mediante transferencia electrónica, con la posibilidad de cancelar hasta en 3 cuotas: al día, 30 y 60 días.",
+      "Invitamos a nuestras familias a realizar el proceso dentro del plazo establecido. Ante cualquier consulta, pueden comunicarse con el Colegio Henri Fayol a través de nuestros canales oficiales."
+    ],
+    "publicada": true,
+    "destacada": true
+  },
+  {
+    "id": "pena-henri-fayol-2026",
+    "titulo": "Vivimos la Peña Henri Fayol 2026",
+    "categoria": "Vida escolar",
+    "fecha": "2026-09-04",
+    "imagen": "assets/galeria/pena1-2026.jpeg",
+    "imagenAlt": "Peña Henri Fayol 2026",
+    "resumen": "Una jornada llena de música, cultura y comunidad que reunió a estudiantes, familias y funcionarios del Colegio Henri Fayol.",
+    "descripcion": "Nuestra comunidad educativa vivió una nueva edición de la Peña Henri Fayol 2026.",
+    "contenido": [
+      "El viernes 4 de septiembre vivimos una nueva edición de la Peña Henri Fayol 2026, una jornada que reunió a nuestra comunidad educativa en torno a la música, las tradiciones y la participación de nuestros estudiantes.",
+      "Queremos agradecer especialmente a todos los apoderados y familias que participaron y acompañaron a nuestros estudiantes durante esta actividad.",
+      "Agradecemos también al profesor de folclor Matías Zamora, al profesor de Educación Física Maximiliano Camus, al profesor Francisco, a Miss Fabiola y a Miss Natalia, profesora de Arte, quien trabajó junto a los estudiantes en la decoración de esta jornada.",
+      "Compartimos algunos de los momentos que nos dejó esta hermosa actividad y agradecemos a todos quienes hicieron posible la Peña Henri Fayol 2026."
+    ],
+    "publicada": true,
+    "destacada": false
+  }
+]

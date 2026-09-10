@@ -1,0 +1,126 @@
+{
+  "nombre": "Colegio Henri Fayol",
+  "descripcion": "Una comunidad educativa comprometida con la formación integral de sus estudiantes.",
+
+  "inicio": {
+"hero": [
+  {
+    "etiqueta": "Admisiones 2027",
+    "titulo": "Tu camino al Henri Fayol comienza aquí",
+    "descripcion": "Conoce nuestro proceso de Admisión 2027, revisa los antecedentes y encuentra toda la información necesaria para formar parte de nuestra comunidad.",
+    "imagen": "assets/banners/hero-admision-2027.jpeg",
+    "boton1": {
+      "texto": "Conocer Admisión 2027",
+      "link": "admision.html"
+    },
+    "boton2": {
+      "texto": "Ver documentos",
+      "link": "admision.html#documentos"
+    }
+  },
+  {
+    "etiqueta": "Nuestra comunidad",
+    "titulo": "Aprender, crecer y compartir",
+    "descripcion": "Actividades, encuentros y experiencias que forman parte de la vida escolar del Colegio Henri Fayol.",
+    "imagen": "assets/banners/hero-comunidad-2026.jpeg",
+    "boton1": {
+      "texto": "Ver galería",
+      "link": "galeria.html"
+    },
+    "boton2": {
+      "texto": "Últimas noticias",
+      "link": "noticias.html"
+    }
+  },
+  {
+    "etiqueta": "Colegio Henri Fayol",
+    "titulo": "Educación cercana, formación para el futuro",
+    "descripcion": "Acompañamos a nuestros estudiantes durante toda su trayectoria escolar, construyendo una comunidad cercana y comprometida.",
+    "imagen": "assets/banners/hero-colegio-2026.jpeg",
+    "boton1": {
+      "texto": "Conoce nuestro colegio",
+      "link": "colegio.html"
+    },
+    "boton2": {
+      "texto": "Conoce nuestro equipo",
+      "link": "equipo.html"
+    }
+  }
+],
+
+    "presentacion": {
+      "etiqueta": "Nuestro colegio",
+      "titulo": "Una educación donde cada estudiante importa",
+      "texto": "En el Colegio Henri Fayol creemos en una formación cercana, integral y comprometida con cada estudiante, acompañando su desarrollo académico y personal desde la Enseñanza Básica hasta la Enseñanza Media.",
+      "imagen": ""
+    }
+  },
+
+  "niveles": [
+    {
+      "titulo": "Enseñanza Básica",
+      "rango": "1° Básico a 7° Básico",
+      "descripcion": "Una etapa fundamental para desarrollar conocimientos, habilidades y valores."
+    },
+    {
+      "titulo": "Enseñanza Media",
+      "rango": "8° Básico a 4° Medio",
+      "descripcion": "Acompañamos a nuestros estudiantes en su preparación académica y personal hacia nuevos desafíos."
+    }
+  ],
+
+  "contacto": {
+  "direccion": "Manuel de Salas 487, Ñuñoa",
+  "telefono1": "9 3149 7266",
+  "telefono1Nombre": "Recepción",
+  "telefono2": "9 3615 1977",
+  "telefono2Nombre": "Convivencia Escolar",
+  "correo": "contacto@colegiofayol.com",
+  "whatsapp": ""
+},
+
+  "redes": {
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "institucional": {
+    "presentacion": {
+      "titulo": "Una comunidad educativa cercana",
+      "texto": [
+        "El Colegio Henri Fayol acompaña a sus estudiantes durante una trayectoria escolar completa, desde 1° Básico hasta 4° Medio.",
+        "Nuestra comunidad educativa está formada por aproximadamente 170 estudiantes, con cursos de alrededor de 15 alumnos por sala, permitiendo desarrollar un ambiente cercano y personalizado.",
+        "A lo largo de su historia, más de 1.500 estudiantes han egresado de nuestro establecimiento y han formado parte de la comunidad Henri Fayol."
+      ]
+    },
+
+    "mision": "La misión institucional oficial del Colegio Henri Fayol será incorporada próximamente en esta sección.",
+
+    "vision": "La visión institucional oficial del Colegio Henri Fayol será incorporada próximamente en esta sección.",
+
+    "proyectoEducativo": {
+      "titulo": "Formación y acompañamiento durante toda la trayectoria escolar",
+      "texto": "Nuestro proyecto educativo busca acompañar el desarrollo académico y personal de cada estudiante dentro de una comunidad cercana. Esta sección será complementada con la información oficial del Proyecto Educativo Institucional del Colegio Henri Fayol."
+    },
+
+    "valores": [
+      {
+        "titulo": "Respeto",
+        "descripcion": "Promovemos una convivencia basada en el respeto entre todos los integrantes de nuestra comunidad educativa."
+      },
+      {
+        "titulo": "Responsabilidad",
+        "descripcion": "Fomentamos el compromiso con el aprendizaje, las decisiones y las responsabilidades de cada estudiante."
+      },
+      {
+        "titulo": "Comunidad",
+        "descripcion": "Construimos un entorno cercano donde estudiantes, familias y funcionarios forman parte activa de la vida escolar."
+      },
+      {
+        "titulo": "Aprendizaje",
+        "descripcion": "Impulsamos el desarrollo académico y personal de nuestros estudiantes durante toda su trayectoria escolar."
+      }
+    ]
+  }
+}
