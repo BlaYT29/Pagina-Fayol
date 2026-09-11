@@ -20,7 +20,7 @@
 La plataforma digital del **Colegio Henri Fayol** fue desarrollada con el objetivo de entregar a estudiantes, familias, docentes y comunidad educativa un acceso moderno, claro y rápido a la información del establecimiento.
 
 🔗 **Versión publicada:**  
-https://blayt29.github.io/Pagina-Fayol/
+https://www.colegiofayol.cl
 
 🌎 **Dominio institucional:**  
 https://www.colegiofayol.cl/
