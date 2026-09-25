@@ -59,12 +59,12 @@
   "niveles": [
     {
       "titulo": "Enseñanza Básica",
-      "rango": "1° Básico a 7° Básico",
+      "rango": "1° Básico a 6° Básico",
       "descripcion": "Una etapa fundamental para desarrollar conocimientos, habilidades y valores."
     },
     {
       "titulo": "Enseñanza Media",
-      "rango": "8° Básico a 4° Medio",
+      "rango": "7° Básico a 4° Medio",
       "descripcion": "Acompañamos a nuestros estudiantes en su preparación académica y personal hacia nuevos desafíos."
     }
   ],
