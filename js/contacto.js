@@ -303,14 +303,12 @@ function renderContactHours() {
     );
 
 
-  const officeSchedules =
-    contactInformationData
-      .horarios
-      .filter(
-        horario =>
-          horario.id === "colegio"
-          ||
-      );
+const officeHours =
+  contactInformationData.horarios
+    .filter(
+      item =>
+        item.id === "colegio"
+    );
 
 
   if (!officeSchedules.length) {
