@@ -31,15 +31,8 @@
   "dias": "Lunes a viernes",
   "desde": "08:30",
   "hasta": "17:00"
-},
-{
-  "id": "colegio-verano",
-  "titulo": "Atención del colegio",
-  "subtitulo": "Horario de verano",
-  "dias": "Lunes a viernes",
-  "desde": "08:30",
-  "hasta": "17:30"
 }
+
   ],
 
   "mensajeHorarios": "Agradecemos la puntualidad en los horarios de entrada y salida para el buen funcionamiento de nuestras jornadas escolares.",
