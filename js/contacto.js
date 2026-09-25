@@ -310,7 +310,6 @@ function renderContactHours() {
         horario =>
           horario.id === "colegio"
           ||
-          horario.id === "colegio-verano"
       );
 
 
