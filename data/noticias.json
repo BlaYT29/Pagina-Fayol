@@ -1,5 +1,49 @@
 [
   {
+    "id": "summer-camp-2026-2027",
+    "titulo": "Conoce el Summer Camp Henri Fayol",
+    "categoria": "Summer Camp",
+    "fecha": "2026-10-30",
+    "imagen": "assets/noticias/Campamento de verano Henri Fayol.png",
+    "imagenAlt": "Summer Camp del Colegio Henri Fayol",
+    "resumen": "El Colegio Henri Fayol invita a estudiantes de 1° a 6° Básico a participar de su primer Summer Camp, con actividades, talleres y recreación durante diciembre y enero.",
+    "descripcion": "Un verano de actividades, talleres y recreación para estudiantes de 1° a 6° Básico.",
+    "contenido": [
+      "Invitamos a nuestros estudiantes de 1° a 6° Básico a participar de su primer Summer Camp, una propuesta pensada para ofrecer un espacio seguro, supervisado y entretenido durante el período de verano.",
+      "El programa contempla actividades de música, deporte, arte, ciencias, juegos de agua, literatura, cocina y teatro, además de actividades fuera del establecimiento como visitas a parques y museos.",
+      "El Summer Camp funcionará de lunes a viernes, entre las 08:30 y las 13:00 horas, desde el 7 de diciembre hasta el 22 de enero, descontando los días feriados. Las familias podrán elegir entre planes quincenal, mensual o full.",
+      "Toda la información de jornadas, planes, valores y funcionamiento se encuentra disponible en la nueva sección Summer Camp del sitio web."
+    ],
+    "cta": {
+      "texto": "Conocer Summer Camp",
+      "link": "summer-camp.html"
+    },
+    "publicada": true,
+    "destacada": true
+  },
+  {
+    "id": "extension-horaria-2027",
+    "titulo": "Nueva Extensión Horaria 2027",
+    "categoria": "Programas 2027",
+    "fecha": "2026-10-30",
+    "imagen": "assets/noticias/ExtensionhorariaenelColegioH.Fayol.png",
+    "imagenAlt": "Extensión Horaria 2027 del Colegio Henri Fayol",
+    "resumen": "El Colegio Henri Fayol contará durante 2027 con un programa de Extensión Horaria para estudiantes de 1° a 6° Básico, con alternativas flexibles hasta las 18:30 horas.",
+    "descripcion": "Conoce la nueva Extensión Horaria Fayoliana y sus modalidades para el año escolar 2027.",
+    "contenido": [
+      "Incorporamos para el 2027 una nueva Extensión Horaria dirigida especialmente a estudiantes de 1° a 6° Básico.",
+      "El programa busca entregar a las familias un espacio seguro, acogedor y estimulante después de la jornada escolar, combinando acompañamiento, reforzamiento académico, actividades recreativas y talleres artísticos.",
+      "La jornada se extenderá hasta las 18:30 horas y contará con dos modalidades: jornada completa de lunes a viernes y jornada diaria, que permite seleccionar uno o varios días de la semana.",
+      "Los detalles de actividades, horarios, modalidades y valores ya se encuentran disponibles en la sección Programas del sitio web."
+    ],
+    "cta": {
+      "texto": "Conocer Extensión Horaria 2027",
+      "link": "programas.html#extension-horaria"
+    },
+    "publicada": true,
+    "destacada": true
+  },
+  {
     "id": "rematricula-2027",
     "titulo": "Rematrícula Año Escolar 2027",
     "categoria": "Información importante",
@@ -9,7 +53,7 @@
     "resumen": "El proceso de rematrícula para el Año Escolar 2027 se encuentra disponible hasta el 11 de septiembre con valor preferencial.",
     "descripcion": "El Colegio Henri Fayol informa a su comunidad sobre el proceso de Rematrícula para el Año Escolar 2027.",
     "contenido": [
-      "El Colegio Henri Fayol informa a nuestra comunidad educativa que el proceso de rematrícula correspondiente al Año Escolar 2027 se encuentra disponible.",
+      "Informamos a nuestra comunidad educativa que el proceso de rematrícula correspondiente al Año Escolar 2027 se encuentra disponible.",
       "Hasta el 11 de septiembre, el valor de la rematrícula será de $290.000. En caso de realizar la rematrícula con posterioridad a esta fecha, se deberá cancelar el valor correspondiente a alumno nuevo, equivalente a $300.000.",
       "El pago puede realizarse mediante transferencia electrónica, con la posibilidad de cancelar hasta en 3 cuotas: al día, 30 y 60 días.",
       "Invitamos a nuestras familias a realizar el proceso dentro del plazo establecido. Ante cualquier consulta, pueden comunicarse con el Colegio Henri Fayol a través de nuestros canales oficiales."

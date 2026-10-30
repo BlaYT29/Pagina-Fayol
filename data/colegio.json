@@ -1,53 +1,79 @@
 {
   "nombre": "Colegio Henri Fayol",
   "descripcion": "Una comunidad educativa comprometida con la formación integral de sus estudiantes.",
-
   "inicio": {
-"hero": [
-  {
-    "etiqueta": "Admisiones 2027",
-    "titulo": "Tu camino al Henri Fayol comienza aquí",
-    "descripcion": "Conoce nuestro proceso de Admisión 2027, revisa los antecedentes y encuentra toda la información necesaria para formar parte de nuestra comunidad.",
-    "imagen": "assets/banners/hero-admision-2027.jpeg",
-    "boton1": {
-      "texto": "Conocer Admisión 2027",
-      "link": "admision.html"
-    },
-    "boton2": {
-      "texto": "Ver documentos",
-      "link": "admision.html#documentos"
-    }
-  },
-  {
-    "etiqueta": "Nuestra comunidad",
-    "titulo": "Aprender, crecer y compartir",
-    "descripcion": "Actividades, encuentros y experiencias que forman parte de la vida escolar del Colegio Henri Fayol.",
-    "imagen": "assets/banners/hero-comunidad-2026.jpeg",
-    "boton1": {
-      "texto": "Ver galería",
-      "link": "galeria.html"
-    },
-    "boton2": {
-      "texto": "Últimas noticias",
-      "link": "noticias.html"
-    }
-  },
-  {
-    "etiqueta": "Colegio Henri Fayol",
-    "titulo": "Educación cercana, formación para el futuro",
-    "descripcion": "Acompañamos a nuestros estudiantes durante toda su trayectoria escolar, construyendo una comunidad cercana y comprometida.",
-    "imagen": "assets/banners/hero-colegio-2026.jpeg",
-    "boton1": {
-      "texto": "Conoce nuestro colegio",
-      "link": "colegio.html"
-    },
-    "boton2": {
-      "texto": "Conoce nuestro equipo",
-      "link": "equipo.html"
-    }
-  }
-],
-
+    "hero": [
+      {
+        "etiqueta": "Summer Camp 2026–2027",
+        "titulo": "Un verano para jugar, descubrir y compartir",
+        "descripcion": "Conoce el primer Summer Camp del Colegio Henri Fayol: actividades, talleres y recreación para estudiantes de 1° a 6° Básico.",
+        "imagen": "assets/banners/hero-summer-camp-2026-2027.jpeg",
+        "boton1": {
+          "texto": "Conocer Summer Camp",
+          "link": "summer-camp.html"
+        },
+        "boton2": {
+          "texto": "Ver planes y valores",
+          "link": "summer-camp.html#planes"
+        }
+      },
+      {
+        "etiqueta": "Extensión Horaria 2027",
+        "titulo": "Más tiempo para aprender, crear y compartir",
+        "descripcion": "Un programa pensado para acompañar a estudiantes de 1° a 6° Básico después de la jornada escolar, con alternativas flexibles hasta las 18:30 horas.",
+        "imagen": "assets/banners/hero-extension-horaria-2027.jpeg",
+        "boton1": {
+          "texto": "Conocer Extensión Horaria",
+          "link": "programas.html#extension-horaria"
+        },
+        "boton2": {
+          "texto": "Ver documento",
+          "link": "assets/documentos/extension-horaria-2027.pdf"
+        }
+      },
+      {
+        "etiqueta": "Admisiones 2027",
+        "titulo": "Tu camino al Henri Fayol comienza aquí",
+        "descripcion": "Conoce nuestro proceso de Admisión 2027, revisa los antecedentes y encuentra toda la información necesaria para formar parte de nuestra comunidad.",
+        "imagen": "assets/banners/hero-admision-2027.jpeg",
+        "boton1": {
+          "texto": "Conocer Admisión 2027",
+          "link": "admision.html"
+        },
+        "boton2": {
+          "texto": "Ver documentos",
+          "link": "admision.html#documentos"
+        }
+      },
+      {
+        "etiqueta": "Nuestra comunidad",
+        "titulo": "Aprender, crecer y compartir",
+        "descripcion": "Actividades, encuentros y experiencias que forman parte de la vida escolar del Colegio Henri Fayol.",
+        "imagen": "assets/banners/hero-comunidad-2026.jpeg",
+        "boton1": {
+          "texto": "Ver galería",
+          "link": "galeria.html"
+        },
+        "boton2": {
+          "texto": "Últimas noticias",
+          "link": "noticias.html"
+        }
+      },
+      {
+        "etiqueta": "Colegio Henri Fayol",
+        "titulo": "Educación cercana, formación para el futuro",
+        "descripcion": "Acompañamos a nuestros estudiantes durante toda su trayectoria escolar, construyendo una comunidad cercana y comprometida.",
+        "imagen": "assets/banners/hero-colegio-2026.jpeg",
+        "boton1": {
+          "texto": "Conoce nuestro colegio",
+          "link": "colegio.html"
+        },
+        "boton2": {
+          "texto": "Conoce nuestro equipo",
+          "link": "equipo.html"
+        }
+      }
+    ],
     "presentacion": {
       "etiqueta": "Nuestro colegio",
       "titulo": "Una educación donde cada estudiante importa",
@@ -55,7 +81,6 @@
       "imagen": ""
     }
   },
-
   "niveles": [
     {
       "titulo": "Enseñanza Básica",
@@ -68,23 +93,20 @@
       "descripcion": "Acompañamos a nuestros estudiantes en su preparación académica y personal hacia nuevos desafíos."
     }
   ],
-
   "contacto": {
-  "direccion": "Manuel de Salas 487, Ñuñoa",
-  "telefono1": "9 3149 7266",
-  "telefono1Nombre": "Secretaria",
-  "telefono2": "9 3615 1977",
-  "telefono2Nombre": "Convivencia Escolar",
-  "correo": "colegiohenrifayol@gmail.com",
-  "whatsapp": ""
-},
-
+    "direccion": "Manuel de Salas 487, Ñuñoa",
+    "telefono1": "9 3149 7266",
+    "telefono1Nombre": "Secretaria",
+    "telefono2": "9 3615 1977",
+    "telefono2Nombre": "Convivencia Escolar",
+    "correo": "colegiohenrifayol@gmail.com",
+    "whatsapp": ""
+  },
   "redes": {
     "instagram": "Colegiohenrifayol",
     "facebook": "",
     "Tiktok": ""
   },
-
   "institucional": {
     "presentacion": {
       "titulo": "Una comunidad educativa cercana",
@@ -94,16 +116,12 @@
         "A lo largo de su historia, más de 600 estudiantes han egresado de nuestro establecimiento y han formado parte de la comunidad Henri Fayol."
       ]
     },
-
     "mision": "La misión institucional oficial del Colegio Henri Fayol será incorporada próximamente en esta sección.",
-
     "vision": "La visión institucional oficial del Colegio Henri Fayol será incorporada próximamente en esta sección.",
-
     "proyectoEducativo": {
       "titulo": "Formación y acompañamiento durante toda la trayectoria escolar",
       "texto": "Nuestro proyecto educativo busca acompañar el desarrollo académico y personal de cada estudiante dentro de una comunidad cercana. Esta sección será complementada con la información oficial del Proyecto Educativo Institucional del Colegio Henri Fayol."
     },
-
     "valores": [
       {
         "titulo": "Respeto",
