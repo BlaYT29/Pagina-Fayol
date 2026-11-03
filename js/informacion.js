@@ -45,44 +45,112 @@ function renderSchedules() {
   container.innerHTML =
     informationData.horarios
       .map(
-        horario => `
+        horario => {
 
-          <article
-            class="schedule-card"
-          >
-
-            <div>
-
-              <span class="schedule-type">
-                ${horario.subtitulo}
-              </span>
+          let scheduleContent = "";
 
 
-              <h3>
-                ${horario.titulo}
-              </h3>
+          if (
+            Array.isArray(
+              horario.lineas
+            )
+          ) {
 
-            </div>
+            scheduleContent =
+              horario.lineas
+                .map(
+                  linea => `
+
+                    <div class="schedule-line">
+
+                      ${
+                        linea.nombre
+
+                          ? `
+                            <span class="schedule-level">
+                              ${linea.nombre}
+                            </span>
+                          `
+
+                          : ""
+                      }
 
 
-            <div class="schedule-time">
-
-              <strong>
-                ${horario.desde}
-                —
-                ${horario.hasta}
-              </strong>
+                      <strong>
+                        ${linea.desde}
+                        —
+                        ${linea.hasta}
+                      </strong>
 
 
-              <span>
-                ${horario.dias}
-              </span>
+                      <span class="schedule-days">
+                        ${linea.dias}
+                      </span>
 
-            </div>
+                    </div>
 
-          </article>
+                  `
+                )
+                .join("");
 
-        `
+          }
+
+
+          else {
+
+            scheduleContent = `
+
+              <div class="schedule-line">
+
+                <strong>
+                  ${horario.desde}
+                  —
+                  ${horario.hasta}
+                </strong>
+
+
+                <span class="schedule-days">
+                  ${horario.dias}
+                </span>
+
+              </div>
+
+            `;
+
+          }
+
+
+          return `
+
+            <article
+              class="schedule-card schedule-card-${horario.id}"
+            >
+
+              <div>
+
+                <span class="schedule-type">
+                  ${horario.subtitulo}
+                </span>
+
+
+                <h3>
+                  ${horario.titulo}
+                </h3>
+
+              </div>
+
+
+              <div class="schedule-time">
+
+                ${scheduleContent}
+
+              </div>
+
+            </article>
+
+          `;
+
+        }
       )
       .join("");
 
@@ -93,7 +161,6 @@ function renderSchedules() {
     informationData.mensajeHorarios;
 
 }
-
 
 /* =========================================
    FILTROS DOCUMENTOS

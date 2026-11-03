@@ -116,28 +116,24 @@
         "A lo largo de su historia, más de 600 estudiantes han egresado de nuestro establecimiento y han formado parte de la comunidad Henri Fayol."
       ]
     },
-    "mision": "La misión institucional oficial del Colegio Henri Fayol será incorporada próximamente en esta sección.",
-    "vision": "La visión institucional oficial del Colegio Henri Fayol será incorporada próximamente en esta sección.",
+    "mision": "La misión del Colegio Henri Fayol es ser una alternativa educativa cercana y acogedora para los estudiantes y sus familias, haciendo del colegio un espacio integrador, grato y seguro para toda la comunidad educativa. Buscamos en este espacio protegido desarrollar una formación holística, incorporando aspectos intelectuales, emocionales, sociales, de sana convivencia y de educación medioambiental. Así mismo, esperamos realizar un trabajo mancomunado con las familias para cumplir el objetivo central de fomentar en nuestros estudiantes el respeto por sí mismo, por los demás y por el medio ambiente; así como la responsabilidad tanto respecto de sus deberes y compromisos como en relación a su rol ciudadano, contribuyendo con ello a lograr buenas relaciones interpersonales y facilitar una buena convivencia.",
+    "vision": "“Desarrollo Integral y Calidad Humana para la educación humanizada del siglo XXI”. Buscamos ser una comunidad educativa preocupada del desarrollo integral de los estudiantes, considerando sus individualidades personales, familiares y contextuales, y facilitando su desarrollo académico y emocional con énfasis en la autonomía, la responsabilidad, el respeto por sí mismos y por la alteridad, así como el cuidado del medioambiente. Esperamos que nuestros estudiantes destaquen por su calidad humana, espíritu de superación y cumplimiento diligente de sus compromisos y obligaciones.",
     "proyectoEducativo": {
-      "titulo": "Formación y acompañamiento durante toda la trayectoria escolar",
-      "texto": "Nuestro proyecto educativo busca acompañar el desarrollo académico y personal de cada estudiante dentro de una comunidad cercana. Esta sección será complementada con la información oficial del Proyecto Educativo Institucional del Colegio Henri Fayol."
+      "titulo": "Proyecto Educativo Institucional",
+      "texto": "El PEI es la carta de navegación que orienta la propuesta educativa, la organización y la gestión del Colegio Henri Fayol. Sitúa al estudiante como eje del proceso formativo y promueve su desarrollo integral mediante una educación flexible, inclusiva, colaborativa y conectada con las necesidades del mundo actual.",
+      "selloTitulo": "Sello educativo",
+      "sello": "Establecimiento inclusivo",
+      "selloTexto": "El Colegio Henri Fayol busca construir una comunidad educativa en la que puedan pertenecer niños, niñas y adolescentes, independiente de su origen, credo o condición, junto a familias participativas y responsables de su proceso educativo.",
+      "documento": "assets/documentos/pei-colegio-henri-fayol.pdf"
     },
     "valores": [
       {
         "titulo": "Respeto",
-        "descripcion": "Promovemos una convivencia basada en el respeto entre todos los integrantes de nuestra comunidad educativa."
+        "descripcion": "Reconocemos y valoramos la dignidad de las personas y la diversidad como una riqueza para la comunidad, promoviendo relaciones basadas en el respeto y la tolerancia."
       },
       {
         "titulo": "Responsabilidad",
-        "descripcion": "Fomentamos el compromiso con el aprendizaje, las decisiones y las responsabilidades de cada estudiante."
-      },
-      {
-        "titulo": "Comunidad",
-        "descripcion": "Construimos un entorno cercano donde estudiantes, familias y funcionarios forman parte activa de la vida escolar."
-      },
-      {
-        "titulo": "Aprendizaje",
-        "descripcion": "Impulsamos el desarrollo académico y personal de nuestros estudiantes durante toda su trayectoria escolar."
+        "descripcion": "Promovemos el sentido del deber, el compromiso con la calidad, la perseverancia y la capacidad de responder por los propios actos y compromisos."
       }
     ]
   }

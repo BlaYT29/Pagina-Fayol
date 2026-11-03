@@ -4,17 +4,49 @@
       "id": "basica",
       "titulo": "Enseñanza Básica",
       "subtitulo": "Horario de clases",
-      "dias": "Lunes a viernes",
-      "desde": "08:30",
-      "hasta": "15:00"
+      "lineas": [
+        {
+          "dias": "Lunes a jueves",
+          "desde": "08:30",
+          "hasta": "15:00"
+        },
+        {
+          "dias": "Viernes",
+          "desde": "08:30",
+          "hasta": "13:00"
+        }
+      ]
     },
     {
       "id": "media",
       "titulo": "Enseñanza Media",
       "subtitulo": "Horario de clases",
-      "dias": "Lunes a viernes",
-      "desde": "08:30",
-      "hasta": "15:30"
+      "lineas": [
+        {
+          "nombre": "7° Básico a II° Medio",
+          "dias": "Lunes a jueves",
+          "desde": "08:30",
+          "hasta": "15:30"
+        },
+        {
+          "nombre": "7° Básico a II° Medio",
+          "dias": "Viernes",
+          "desde": "08:30",
+          "hasta": "13:30"
+        },
+        {
+          "nombre": "III° y IV° Medio",
+          "dias": "Lunes, martes, miércoles y viernes",
+          "desde": "08:30",
+          "hasta": "15:30"
+        },
+        {
+          "nombre": "III° y IV° Medio",
+          "dias": "Jueves",
+          "desde": "08:30",
+          "hasta": "16:15"
+        }
+      ]
     },
     {
       "id": "apoderados",
@@ -23,21 +55,25 @@
       "dias": "Lunes a viernes",
       "desde": "08:00",
       "hasta": "11:00"
-    },   
+    },
     {
-  "id": "colegio",
-  "titulo": "Atención del colegio",
-  "subtitulo": "Período escolar",
-  "dias": "Lunes a viernes",
-  "desde": "08:30",
-  "hasta": "17:00"
-}
-
+      "id": "colegio",
+      "titulo": "Atención del colegio",
+      "subtitulo": "Período escolar",
+      "dias": "Lunes a viernes",
+      "desde": "08:30",
+      "hasta": "17:00"
+    }
   ],
-
   "mensajeHorarios": "Agradecemos la puntualidad en los horarios de entrada y salida para el buen funcionamiento de nuestras jornadas escolares.",
-
   "documentos": [
+    {
+      "id": "proyecto-educativo-institucional",
+      "titulo": "Proyecto Educativo Institucional (PEI)",
+      "descripcion": "Documento oficial que define la misión, visión, sello educativo, valores y lineamientos formativos del Colegio Henri Fayol.",
+      "categoria": "Proyecto educativo",
+      "archivo": "assets/documentos/pei-colegio-henri-fayol.pdf"
+    },
     {
       "id": "manual-convivencia-escolar",
       "titulo": "Manual de Convivencia Escolar",

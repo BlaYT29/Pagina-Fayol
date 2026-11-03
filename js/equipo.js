@@ -541,21 +541,83 @@ function createPersonCard(
   }
 
 
+  let teachingItems =
+    Array.isArray(person.docencia)
+      ? person.docencia
+      : [];
+
+
+  if (
+    currentView === "basica"
+  ) {
+
+    teachingItems =
+      teachingItems.filter(
+        item =>
+          item.nivel === "Básica"
+      );
+
+  }
+
+
+  if (
+    currentView === "media"
+  ) {
+
+    teachingItems =
+      teachingItems.filter(
+        item =>
+          item.nivel === "Media"
+      );
+
+  }
+
+
   const subject =
 
-    person.asignatura
+    teachingItems.length
 
       ? `
 
-        <p
-          class="person-subject"
-        >
-          ${person.asignatura}
-        </p>
+        <div class="person-teaching">
+
+          ${
+            teachingItems
+              .map(
+                item => `
+
+                  <div class="person-teaching-item">
+
+                    <strong>
+                      ${item.asignatura}
+                    </strong>
+
+                    <span>
+                      ${item.cursos}
+                    </span>
+
+                  </div>
+
+                `
+              )
+              .join("")
+          }
+
+        </div>
 
       `
 
-      : "";
+      : person.asignatura
+
+        ? `
+
+          <p class="person-subject">
+            ${person.asignatura}
+          </p>
+
+        `
+
+        : "";
 
 
   const jefatura =

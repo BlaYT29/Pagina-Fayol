@@ -59,7 +59,7 @@
   display: flex;
   align-items: center;
 
-  gap: 28px;
+  gap: 22px;
 }
 
 .nav a {
@@ -132,6 +132,29 @@
   background: var(--primary-dark);
 
   transition: 0.3s ease;
+}
+
+
+
+@media (max-width: 1180px) and (min-width: 901px) {
+
+  .header-logo img {
+    height: 52px;
+  }
+
+  .nav {
+    gap: 14px;
+  }
+
+  .nav a,
+  .nav-dropdown-toggle {
+    font-size: 0.78rem;
+  }
+
+  .nav-contacto {
+    padding: 10px 14px;
+  }
+
 }
 
 @media (max-width: 900px) {

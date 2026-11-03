@@ -39,8 +39,8 @@
     "orden": 3
   },
   {
-    "id": "fabiola-villaroel-coordinacion",
-    "nombre": "Fabiola Villaroel",
+    "id": "fabiola-villarroel-coordinacion",
+    "nombre": "Fabiola Villarroel",
     "tratamiento": "",
     "cargo": "UTP Enseñanza Básica",
     "tipo": "coordinacion",
@@ -64,20 +64,6 @@
     "foto": "",
     "orden": 5
   },
-
-  {
-    "id": "maximiliano-camus",
-    "nombre": "Maximiliano Camus",
-    "tratamiento": "Mr.",
-    "cargo": "Profesor",
-    "tipo": "docente",
-    "nivel": "Básica y Media",
-    "asignatura": "Educación Física",
-    "correo": "m.camus@colegiofayol.cl",
-    "jefatura": "",
-    "foto": "",
-    "orden": 1
-  },
   {
     "id": "paula-valenzuela",
     "nombre": "Paula Valenzuela",
@@ -85,63 +71,28 @@
     "cargo": "Profesora",
     "tipo": "docente",
     "nivel": "Básica",
-    "asignatura": "Matemáticas",
+    "asignatura": "Lenguaje, Matemáticas e Inglés",
     "correo": "p.valenzuela@colegiofayol.cl",
     "jefatura": "1° Básico",
     "foto": "",
-    "orden": 2
-  },
-  {
-    "id": "gloria-reyes",
-    "nombre": "Gloria Reyes",
-    "tratamiento": "Miss.",
-    "cargo": "Profesora",
-    "tipo": "docente",
-    "nivel": "Básica",
-    "asignatura": "Inglés",
-    "correo": "g.reyes@colegiofayol.cl",
-    "jefatura": "3° Básico",
-    "foto": "",
-    "orden": 3
-  },
-  {
-    "id": "silvana-rojas",
-    "nombre": "Silvana Rojas",
-    "tratamiento": "Miss.",
-    "cargo": "Profesora",
-    "tipo": "docente",
-    "nivel": "Básica",
-    "asignatura": "Lenguaje",
-    "correo": "s.rojas@colegiofayol.cl",
-    "jefatura": "1° Básico",
-    "foto": "",
-    "orden": 4
-  },
-  {
-    "id": "francisca-rivas",
-    "nombre": "Francisca Rivas",
-    "tratamiento": "Miss.",
-    "cargo": "Profesora",
-    "tipo": "docente",
-    "nivel": "Básica",
-    "asignatura": "Lenguaje",
-    "correo": "f.rivas@colegiofayol.cl",
-    "jefatura": "",
-    "foto": "",
-    "orden": 5
-  },
-  {
-    "id": "fabiola-villaroel",
-    "nombre": "Fabiola Villaroel",
-    "tratamiento": "Miss.",
-    "cargo": "Profesora",
-    "tipo": "docente",
-    "nivel": "Básica",
-    "asignatura": "Matemáticas",
-    "correo": "f.villaroel@colegiofayol.cl",
-    "jefatura": "",
-    "foto": "",
-    "orden": 6
+    "orden": 1,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Lenguaje",
+        "cursos": "1°, 2° y 3° Básico"
+      },
+      {
+        "nivel": "Básica",
+        "asignatura": "Matemáticas",
+        "cursos": "1°, 2° y 3° Básico"
+      },
+      {
+        "nivel": "Básica",
+        "asignatura": "Inglés",
+        "cursos": "1° y 2° Básico"
+      }
+    ]
   },
   {
     "id": "katherine-almonacid",
@@ -154,7 +105,39 @@
     "correo": "k.almonacid@colegiofayol.cl",
     "jefatura": "6° Básico",
     "foto": "",
-    "orden": 7
+    "orden": 2,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Historia y Ciencias",
+        "cursos": "1° a 6° Básico"
+      }
+    ]
+  },
+  {
+    "id": "maximiliano-camus",
+    "nombre": "Maximiliano Camus",
+    "tratamiento": "Mr.",
+    "cargo": "Profesor",
+    "tipo": "docente",
+    "nivel": "Básica y Media",
+    "asignatura": "Educación Física",
+    "correo": "m.camus@colegiofayol.cl",
+    "jefatura": "",
+    "foto": "",
+    "orden": 3,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Educación Física",
+        "cursos": "1° a 6° Básico"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Educación Física",
+        "cursos": "7°, 8° Básico y I° a IV° Medio"
+      }
+    ]
   },
   {
     "id": "natalia-palma",
@@ -162,52 +145,79 @@
     "tratamiento": "Miss.",
     "cargo": "Profesora",
     "tipo": "docente",
-    "nivel": "Básica",
+    "nivel": "Básica y Media",
     "asignatura": "Artes y Tecnología",
     "correo": "n.palma@colegiofayol.cl",
     "jefatura": "4° Básico",
     "foto": "",
-    "orden": 8
+    "orden": 4,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Artes y Tecnología",
+        "cursos": "1° a 6° Básico"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Artes",
+        "cursos": "7°, 8° Básico y I° a IV° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Tecnología",
+        "cursos": "7°, 8° Básico, I° y II° Medio"
+      }
+    ]
   },
-
   {
-    "id": "ignacio-valdes",
-    "nombre": "Ignacio Valdes",
+    "id": "francisco-lagos",
+    "nombre": "Francisco Lagos",
     "tratamiento": "Mr.",
     "cargo": "Profesor",
     "tipo": "docente",
-    "nivel": "Media",
-    "asignatura": "Historia",
-    "correo": "i.valdes@colegiofayol.cl",
+    "nivel": "Básica y Media",
+    "asignatura": "Música",
+    "correo": "",
     "jefatura": "",
     "foto": "",
-    "orden": 1
+    "orden": 5,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Música",
+        "cursos": "1° a 6° Básico"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Música",
+        "cursos": "7° y 8° Básico"
+      }
+    ]
   },
   {
-    "id": "rolando-araya",
-    "nombre": "Rolando Araya",
+    "id": "manuel-rosales",
+    "nombre": "Manuel Rosales",
     "tratamiento": "Mr.",
     "cargo": "Profesor",
     "tipo": "docente",
-    "nivel": "Media",
-    "asignatura": "Inglés",
-    "correo": "r.araya@colegiofayol.cl",
-    "jefatura": "2° Medio",
-    "foto": "",
-    "orden": 2
-  },
-  {
-    "id": "jorge-fuentes-quezada",
-    "nombre": "Jorge Fuentes Quezada",
-    "tratamiento": "Mr.",
-    "cargo": "Profesor",
-    "tipo": "docente",
-    "nivel": "Media",
-    "asignatura": "Filosofía",
-    "correo": "j.fuentes@colegiofayol.cl",
+    "nivel": "Básica y Media",
+    "asignatura": "Matemáticas",
+    "correo": "",
     "jefatura": "",
     "foto": "",
-    "orden": 3
+    "orden": 6,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Matemáticas",
+        "cursos": "4°, 5° y 6° Básico"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Matemáticas",
+        "cursos": "7° y 8° Básico"
+      }
+    ]
   },
   {
     "id": "andreina-hevia",
@@ -215,29 +225,73 @@
     "tratamiento": "Miss.",
     "cargo": "Profesora",
     "tipo": "docente",
-    "nivel": "Media",
+    "nivel": "Básica y Media",
     "asignatura": "Lenguaje",
     "correo": "a.hevia@colegiofayol.cl",
     "jefatura": "7° Básico",
     "foto": "",
-    "orden": 4
+    "orden": 7,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Lenguaje",
+        "cursos": "4°, 5° y 6° Básico"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Lenguaje",
+        "cursos": "7° y 8° Básico"
+      }
+    ]
   },
   {
-    "id": "daniel-cristi",
-    "nombre": "Daniel Cristi",
+    "id": "fabiola-villarroel",
+    "nombre": "Fabiola Villarroel",
+    "tratamiento": "Miss.",
+    "cargo": "Profesora",
+    "tipo": "docente",
+    "nivel": "Básica",
+    "asignatura": "Inglés",
+    "correo": "f.villarroel@colegiofayol.cl",
+    "jefatura": "",
+    "foto": "",
+    "orden": 8,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Inglés",
+        "cursos": "3° y 4° Básico"
+      }
+    ]
+  },
+  {
+    "id": "rolando-araya",
+    "nombre": "Rolando Araya",
     "tratamiento": "Mr.",
     "cargo": "Profesor",
     "tipo": "docente",
     "nivel": "Básica y Media",
-    "asignatura": "Música",
-    "correo": "d.cristi@colegiofayol.cl",
-    "jefatura": "",
+    "asignatura": "Inglés",
+    "correo": "r.araya@colegiofayol.cl",
+    "jefatura": "2° Medio",
     "foto": "",
-    "orden": 5
+    "orden": 9,
+    "docencia": [
+      {
+        "nivel": "Básica",
+        "asignatura": "Inglés",
+        "cursos": "5° y 6° Básico"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Inglés",
+        "cursos": "7°, 8° Básico y I° a IV° Medio"
+      }
+    ]
   },
   {
-    "id": "carolina-fernandez",
-    "nombre": "Carolina Fernandez",
+    "id": "carolina-fernandes",
+    "nombre": "Carolina Fernandes",
     "tratamiento": "Miss.",
     "cargo": "Profesora",
     "tipo": "docente",
@@ -246,7 +300,134 @@
     "correo": "c.fernandez@colegiofayol.cl",
     "jefatura": "1° Medio",
     "foto": "",
-    "orden": 6
+    "orden": 10,
+    "docencia": [
+      {
+        "nivel": "Media",
+        "asignatura": "Ciencias",
+        "cursos": "7°, 8° Básico, I° y II° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Ciencias para la Ciudadanía",
+        "cursos": "III° y IV° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Electivos",
+        "cursos": "III° y IV° Medio"
+      }
+    ]
+  },
+  {
+    "id": "francisca-rivas",
+    "nombre": "Francisca Rivas",
+    "tratamiento": "Miss.",
+    "cargo": "Profesora",
+    "tipo": "docente",
+    "nivel": "Media",
+    "asignatura": "Lenguaje",
+    "correo": "f.rivas@colegiofayol.cl",
+    "jefatura": "",
+    "foto": "",
+    "orden": 11,
+    "docencia": [
+      {
+        "nivel": "Media",
+        "asignatura": "Lenguaje",
+        "cursos": "I° a IV° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Electivos",
+        "cursos": "III° y IV° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Focalizado Lenguaje",
+        "cursos": "III° y IV° Medio"
+      }
+    ]
+  },
+  {
+    "id": "daniel-cristi",
+    "nombre": "Daniel Cristi",
+    "tratamiento": "Mr.",
+    "cargo": "Profesor",
+    "tipo": "docente",
+    "nivel": "Media",
+    "asignatura": "Matemáticas",
+    "correo": "d.cristi@colegiofayol.cl",
+    "jefatura": "",
+    "foto": "",
+    "orden": 12,
+    "docencia": [
+      {
+        "nivel": "Media",
+        "asignatura": "Matemáticas",
+        "cursos": "I° a IV° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Electivos",
+        "cursos": "III° y IV° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Focalizado Matemática",
+        "cursos": "III° y IV° Medio"
+      }
+    ]
+  },
+  {
+    "id": "fernanda-rodriguez",
+    "nombre": "Fernanda Rodriguez",
+    "tratamiento": "Miss.",
+    "cargo": "Profesora",
+    "tipo": "docente",
+    "nivel": "Media",
+    "asignatura": "Filosofía",
+    "correo": "",
+    "jefatura": "",
+    "foto": "",
+    "orden": 13,
+    "docencia": [
+      {
+        "nivel": "Media",
+        "asignatura": "Filosofía",
+        "cursos": "7°, 8° Básico y I° a IV° Medio"
+      }
+    ]
+  },
+  {
+    "id": "carolina-castro",
+    "nombre": "Carolina Castro",
+    "tratamiento": "Miss.",
+    "cargo": "Profesora",
+    "tipo": "docente",
+    "nivel": "Media",
+    "asignatura": "Historia y Educación Ciudadana",
+    "correo": "",
+    "jefatura": "",
+    "foto": "",
+    "orden": 14,
+    "docencia": [
+      {
+        "nivel": "Media",
+        "asignatura": "Historia",
+        "cursos": "I° y II° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Educación Ciudadana",
+        "cursos": "III° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Electivos",
+        "cursos": "III° y IV° Medio"
+      }
+    ]
   },
   {
     "id": "patricio-cabrera",
@@ -255,10 +436,27 @@
     "cargo": "Profesor",
     "tipo": "docente",
     "nivel": "Media",
-    "asignatura": "Historia",
+    "asignatura": "Historia y Educación Ciudadana",
     "correo": "p.cabrera@colegiofayol.cl",
     "jefatura": "",
     "foto": "",
-    "orden": 7
+    "orden": 15,
+    "docencia": [
+      {
+        "nivel": "Media",
+        "asignatura": "Historia",
+        "cursos": "7° y 8° Básico"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Educación Ciudadana",
+        "cursos": "IV° Medio"
+      },
+      {
+        "nivel": "Media",
+        "asignatura": "Focalizado Historia",
+        "cursos": "III° y IV° Medio"
+      }
+    ]
   }
 ]

@@ -114,6 +114,80 @@ function renderProject() {
   ).textContent =
     project.texto;
 
+
+  const sealLabel =
+    document.getElementById(
+      "school-project-seal-label"
+    );
+
+
+  const seal =
+    document.getElementById(
+      "school-project-seal"
+    );
+
+
+  const sealText =
+    document.getElementById(
+      "school-project-seal-text"
+    );
+
+
+  if (sealLabel) {
+    sealLabel.textContent =
+      project.selloTitulo
+      ||
+      "Sello educativo";
+  }
+
+
+  if (seal) {
+    seal.textContent =
+      project.sello
+      ||
+      "";
+  }
+
+
+  if (sealText) {
+    sealText.textContent =
+      project.selloTexto
+      ||
+      "";
+  }
+
+
+  const viewLink =
+    document.getElementById(
+      "school-project-view"
+    );
+
+
+  const downloadLink =
+    document.getElementById(
+      "school-project-download"
+    );
+
+
+  if (
+    project.documento
+    &&
+    viewLink
+  ) {
+    viewLink.href =
+      project.documento;
+  }
+
+
+  if (
+    project.documento
+    &&
+    downloadLink
+  ) {
+    downloadLink.href =
+      project.documento;
+  }
+
 }
 
 
