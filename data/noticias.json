@@ -78,5 +78,40 @@
     ],
     "publicada": true,
     "destacada": false
-  }
+
+    
+  },
+  {
+  "id": "alianzas-henri-fayol-2026",
+  "titulo": "Alianzas Henri Fayol 2026: Samurai, Vikingos y Piratas dieron vida a tres jornadas de sana competencia",
+  "categoria": "Vida escolar",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8070.JPG",
+  "imagenAlt": "Estudiantes del Colegio Henri Fayol participando en las Alianzas 2026",
+  "resumen": "Durante los días 4, 5 y 6 de noviembre, las alianzas Samurai, Vikingos y Piratas participaron en jornadas de actividades, creatividad y sana competencia. El cierre oficial y anuncio de la alianza ganadora se realizará el 13 de noviembre.",
+  "descripcion": "Tres jornadas llenas de creatividad, compañerismo y participación dieron vida a las Alianzas Henri Fayol 2026.",
+  "contenido": [
+    "Durante los días 4, 5 y 6 de noviembre de 2026, nuestra comunidad educativa vivió una nueva edición de las Alianzas Henri Fayol, en la que participaron con gran entusiasmo las alianzas Samurai, Vikingos y Piratas.",
+    "Fueron jornadas marcadas por la alegría, la creatividad, el compañerismo y la sana competencia, donde nuestros estudiantes participaron en distintas actividades, presentaciones y desafíos que permitieron fortalecer el trabajo en equipo y el espíritu de comunidad.",
+    "Entre las actividades realizadas destacaron la presentación de lienzos, distintas competencias y muestras creativas preparadas por los estudiantes, además de presentaciones y vestuarios confeccionados con materiales como papel periódico.",
+    "Agradecemos especialmente al Centro de Alumnos por su constante apoyo y colaboración en la coordinación de las actividades, así como también a quienes participaron como jurados y apoyaron el desarrollo de estas jornadas.",
+    "Nuestro reconocimiento para Mariana Concha, encargada de Convivencia Escolar; Fabiola Villarroel, jefa UTP de Enseñanza Básica; y Francisco Lagos, profesor de Música del Colegio Henri Fayol.",
+    "Las Alianzas Henri Fayol 2026 tendrán su cierre oficial el viernes 13 de noviembre, jornada en la que se realizarán nuevas actividades y se dará a conocer oficialmente a la alianza ganadora.",
+    "Felicitamos a Samurai, Vikingos y Piratas por la participación, entusiasmo y compromiso demostrado durante estas jornadas, y agradecemos a toda la comunidad educativa por hacer de esta actividad una experiencia positiva y memorable."
+  ],
+  "galeria": [
+    "assets/noticias/alianzas-2026/IMG_7996.JPG",
+    "assets/noticias/alianzas-2026/IMG_8000.JPG",
+    "assets/noticias/alianzas-2026/IMG_8001.JPG",
+    "assets/noticias/alianzas-2026/IMG_8039.JPG",
+    "assets/noticias/alianzas-2026/IMG_8165.JPG",
+    "assets/noticias/alianzas-2026/IMG_8286.JPG",
+    "assets/noticias/alianzas-2026/IMG_8336.JPG"
+  ],
+  "publicada": true,
+  "destacada": true
+}
+
+
+  
 ]
