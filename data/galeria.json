@@ -125,62 +125,151 @@
     "fecha": "2026-09-04",
     "imagen": "assets/galeria/pena18-2026.jpeg"
   },
-  [
   {
-    "id": "alianzas-2026-01",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_7996.JPG"
-  },
-  {
-    "id": "alianzas-2026-02",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_8000.JPG"
-  },
-  {
-    "id": "alianzas-2026-03",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_8001.JPG"
-  },
-  {
-    "id": "alianzas-2026-04",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_8039.JPG"
-  },
-  {
-    "id": "alianzas-2026-05",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_8070.JPG"
-  },
-  {
-    "id": "alianzas-2026-06",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_8165.JPG"
-  },
-  {
-    "id": "alianzas-2026-07",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_8286.JPG"
-  },
-  {
-    "id": "alianzas-2026-08",
-    "titulo": "Alianzas Henri Fayol 2026",
-    "categoria": "Alianzas 2026",
-    "fecha": "2026-11-06",
-    "imagen": "assets/noticias/alianzas-2026/IMG_8336.JPG"
-  }
-]
+  "id": "alianzas-2026-01",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_7996.JPG"
+},
+{
+  "id": "alianzas-2026-02",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8000.JPG"
+},
+{
+  "id": "alianzas-2026-03",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8001.JPG"
+},
+{
+  "id": "alianzas-2026-04",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8005.JPG"
+},
+{
+  "id": "alianzas-2026-05",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8008.JPG"
+},
+{
+  "id": "alianzas-2026-06",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8022.JPG"
+},
+{
+  "id": "alianzas-2026-07",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8039.JPG"
+},
+{
+  "id": "alianzas-2026-08",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8063.JPG"
+},
+{
+  "id": "alianzas-2026-09",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8067.JPG"
+},
+{
+  "id": "alianzas-2026-10",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8070.JPG"
+},
+{
+  "id": "alianzas-2026-11",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8086.JPG"
+},
+{
+  "id": "alianzas-2026-12",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8102.JPG"
+},
+{
+  "id": "alianzas-2026-13",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8165.JPG"
+},
+{
+  "id": "alianzas-2026-14",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8170.JPG"
+},
+{
+  "id": "alianzas-2026-15",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8203.JPG"
+},
+{
+  "id": "alianzas-2026-16",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8274.JPG"
+},
+{
+  "id": "alianzas-2026-17",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8286.JPG"
+},
+{
+  "id": "alianzas-2026-18",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8312.JPG"
+},
+{
+  "id": "alianzas-2026-19",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8319.JPG"
+},
+{
+  "id": "alianzas-2026-20",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8326.JPG"
+},
+{
+  "id": "alianzas-2026-21",
+  "titulo": "Alianzas Henri Fayol 2026",
+  "categoria": "Alianzas 2026",
+  "fecha": "2026-11-06",
+  "imagen": "assets/noticias/alianzas-2026/IMG_8336.JPG"
+}
 ]
